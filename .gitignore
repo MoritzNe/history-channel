@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.DS_Store
+
+# Downloaded models, fetched assets, intermediate renders
+.cache/
+build/
+output/
+*.mp4
+*.wav
+client_secret*.json
+youtube_token.json
