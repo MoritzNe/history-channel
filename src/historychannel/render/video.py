@@ -55,6 +55,7 @@ class ClipPlan:
     vis_end: float
     fade_in: float  # crossfade length shared with the previous clip (0 = hard start)
     caption: str | None
+    animation: dict | None = None  # animated shot: frames from animate.render_frame
 
 
 @dataclass
@@ -90,6 +91,7 @@ def build_plan(timeline: Timeline, width: int, height: int) -> RenderPlan:
                 vis_end=min(timeline.duration, end + xf[i + 1] / 2),
                 fade_in=xf[i],
                 caption=c.caption,
+                animation=c.animation,
             )
         )
     return RenderPlan(
@@ -115,6 +117,7 @@ class FrameRenderer:
         self._images: dict[str, PreparedImage] = {}
         self._captions: dict[int, Overlay] = {}
         self._subs: dict[int, Overlay] = {}
+        self._anim_failed: set[int] = set()  # clips whose animation raised: Ken Burns from then on
 
     def _image(self, path: str) -> PreparedImage:
         im = self._images.get(path)
@@ -126,6 +129,19 @@ class FrameRenderer:
         return im
 
     def _clip_frame(self, c: ClipPlan, t: float) -> np.ndarray:
+        if c.animation is not None and id(c) not in self._anim_failed:
+            from historychannel.animate import render_frame
+
+            try:
+                # shot-local time; slightly outside [0, duration] during crossfades
+                f = render_frame(c.animation, t - c.start, c.end - c.start, self.plan.width, self.plan.height)
+                if f.shape != (self.plan.height, self.plan.width, 3) or f.dtype != np.uint8:
+                    raise ValueError(f"animated frame has shape {f.shape} {f.dtype}")
+                return f
+            except Exception:
+                self._anim_failed.add(id(c))
+                log.exception("animation %r failed at t=%.2f; falling back to Ken Burns on %s",
+                              c.animation.get("kind"), t, c.image)
         u = (t - c.vis_start) / max(1e-6, c.vis_end - c.vis_start)
         return self._image(c.image).frame(c.motion, u, self.plan.width, self.plan.height)
 
