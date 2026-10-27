@@ -1,0 +1,1017 @@
+{
+  "slug": "1848-german-revolution",
+  "title": "The Crown from the Gutter: How Germany's 1848 Revolution Won Everything and Lost It All",
+  "description": "In March 1848, Berliners tore up their streets, built barricades, and forced the King of Prussia to bow before their dead. Within weeks, Metternich had fled Vienna and Germany's first freely elected parliament was meeting in Frankfurt's St Paul's Church. A year later, that parliament offered the king the crown of a united, constitutional Germany. He refused it. By the summer of 1849, the last revolutionaries were surrendering at the fortress of Rastatt.\n\nThis video follows the people at the centre of it: Friedrich Wilhelm IV, the romantic king who despised a crown offered by the people; Heinrich von Gagern, the parliament's president, whose own brother died fighting the radicals; Robert Blum, the Cologne pauper turned deputy who was shot in Vienna; Friedrich Hecker, the republican who ended up a colonel in the American Civil War; and Carl Schurz, who escaped Rastatt through a sewer and became a US senator. Why did the revolution fail, and why does modern Germany still fly its colours?\n\nSources:\n- Wikipedia (de): Märzrevolution 1848 in Berlin - https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin\n- Wikipedia (en): Frankfurt Parliament - https://en.wikipedia.org/wiki/Frankfurt_Parliament\n- Wikipedia (de): Kaiserdeputation - https://de.wikipedia.org/wiki/Kaiserdeputation\n- Deutsches Historisches Museum, \"Roads Not Taken\" teaching guide (Bunsen letter, 13 Dec 1848) - https://www.dhm.de/assets/DHM/Download/Publikationen/Begleitheft_RNT/1848_Aufgaben_G04.pdf\n- Wikipedia (de): Robert Blum - https://de.wikipedia.org/wiki/Robert_Blum\n- Wikipedia (de): Badische Revolution - https://de.wikipedia.org/wiki/Badische_Revolution\n- Wikipedia (en): Revolutions of 1848 in the German states - https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states\n- Wikipedia (en): Carl Schurz - https://en.wikipedia.org/wiki/Carl_Schurz\n- Wikipedia (en): Friedrich Hecker - https://en.wikipedia.org/wiki/Friedrich_Hecker\n- Wikipedia (de): Paulskirchenverfassung - https://de.wikipedia.org/wiki/Paulskirchenverfassung\n- Wikipedia (en): Flag of Germany - https://en.wikipedia.org/wiki/Flag_of_Germany\n\nImages: Wikimedia Commons (public domain and CC licences; credits listed separately).",
+  "tags": [
+    "1848",
+    "German Revolution",
+    "Revolutions of 1848",
+    "March Revolution",
+    "Frankfurt Parliament",
+    "Paulskirche",
+    "Friedrich Wilhelm IV",
+    "Robert Blum",
+    "Carl Schurz",
+    "Friedrich Hecker",
+    "Forty-Eighters",
+    "Rastatt",
+    "German history",
+    "Prussia",
+    "black red gold",
+    "history documentary"
+  ],
+  "language": "en",
+  "voice": null,
+  "scenes": [
+    {
+      "id": "cold_open",
+      "mood": "tense",
+      "narration": "Berlin. The night of the eighteenth of March, 1848. Church bells ring the alarm across the city. Paving stones are torn up and piled into walls. Behind them wait students, craftsmen and apprentices, facing the army of their own king. By morning, hundreds lie dead. And the king will give in. So why did a revolution that won almost everywhere that spring lose everything a year later?",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Erinnerung an den Befreiungskampf (Märzrevolution) 1848.png",
+          "query": "Berlin March Revolution 1848 barricade night lithograph",
+          "motion": "zoom_in",
+          "caption": "Barricade fighting in Berlin, night of 18–19 March 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Barrikadenkampf Alexanderplatz 1848.jpg",
+          "query": "Barrikadenkampf Alexanderplatz 1848",
+          "motion": "pan_right",
+          "caption": "Fighting at the Alexanderplatz barricade, Berlin, 18 March 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Die Barrikade an der Kronen- und Friedrichstraße in Berlin am 18. März 1848.jpg",
+          "query": "Barrikade Kronenstraße Friedrichstraße Berlin 1848",
+          "motion": "zoom_out",
+          "caption": "Barricade at Kronenstraße and Friedrichstraße, Berlin, 18 March 1848"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin"
+      ]
+    },
+    {
+      "id": "title",
+      "mood": "somber",
+      "narration": "This is the story of Germany's first attempt to build a free, united nation from below, and of a crown that nobody wanted to wear.",
+      "visuals": [
+        {
+          "kind": "title_card",
+          "text": "The Crown from the Gutter",
+          "subtext": "The German Revolutions of 1848–49",
+          "motion": "static",
+          "weight": 1.2
+        },
+        {
+          "kind": "archival",
+          "file": "File:Image Germania (painting).jpg",
+          "query": "Germania Paulskirche 1848 Philipp Veit",
+          "motion": "pan_up",
+          "caption": "Germania, the banner painting that hung in St Paul's Church, Frankfurt, 1848"
+        }
+      ],
+      "pause_after": 1.0,
+      "sources": []
+    },
+    {
+      "id": "patchwork",
+      "mood": "neutral",
+      "narration": "In 1848 there was no Germany. There was a loose German Confederation of nearly forty states, from mighty Austria and Prussia down to tiny principalities. Princes ruled by the grace of God. Newspapers were censored, and the architect of that order was Austria's chancellor, Prince Metternich. And people were hungry: potato blight and failed harvests had sent food prices soaring.",
+      "visuals": [
+        {
+          "kind": "map",
+          "map": {
+            "title": "The German Confederation, 1848",
+            "extent": [
+              3.5,
+              20.5,
+              44.5,
+              56.0
+            ],
+            "regions": [
+              {
+                "label": "German Confederation (approx.)",
+                "polygon": [
+                  [
+                    6.0,
+                    53.5
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    9.0,
+                    54.4
+                  ],
+                  [
+                    10.9,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.4
+                  ],
+                  [
+                    14.3,
+                    54.0
+                  ],
+                  [
+                    17.6,
+                    54.6
+                  ],
+                  [
+                    16.9,
+                    53.2
+                  ],
+                  [
+                    15.8,
+                    52.5
+                  ],
+                  [
+                    16.3,
+                    51.7
+                  ],
+                  [
+                    18.6,
+                    50.9
+                  ],
+                  [
+                    18.8,
+                    49.9
+                  ],
+                  [
+                    17.8,
+                    48.9
+                  ],
+                  [
+                    17.0,
+                    48.0
+                  ],
+                  [
+                    16.2,
+                    46.8
+                  ],
+                  [
+                    15.6,
+                    45.6
+                  ],
+                  [
+                    13.8,
+                    45.5
+                  ],
+                  [
+                    13.5,
+                    46.3
+                  ],
+                  [
+                    11.0,
+                    45.7
+                  ],
+                  [
+                    10.4,
+                    46.5
+                  ],
+                  [
+                    9.6,
+                    47.3
+                  ],
+                  [
+                    8.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    8.2,
+                    49.0
+                  ],
+                  [
+                    6.4,
+                    49.4
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    6.0,
+                    50.8
+                  ],
+                  [
+                    5.8,
+                    51.2
+                  ],
+                  [
+                    6.2,
+                    51.9
+                  ],
+                  [
+                    7.0,
+                    52.2
+                  ],
+                  [
+                    7.0,
+                    53.3
+                  ],
+                  [
+                    6.0,
+                    53.5
+                  ]
+                ]
+              }
+            ],
+            "markers": [
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52
+              },
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11
+              },
+              {
+                "name": "Munich",
+                "lon": 11.58,
+                "lat": 48.14
+              },
+              {
+                "name": "Dresden",
+                "lon": 13.74,
+                "lat": 51.05
+              }
+            ]
+          },
+          "motion": "zoom_in",
+          "weight": 1.4
+        },
+        {
+          "kind": "archival",
+          "file": "File:Metternich by Lawrence.jpeg",
+          "query": "Metternich portrait Lawrence",
+          "motion": "pan_down",
+          "caption": "Prince Klemens von Metternich, Austrian chancellor"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Zug auf das Schloss Hambach 1832 Deutschland.png",
+          "query": "Hambacher Fest 1832",
+          "motion": "pan_left",
+          "caption": "Liberals march to Hambach Castle under black-red-gold, 1832"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/Klemens_von_Metternich",
+        "https://de.wikipedia.org/wiki/Kartoffelrevolution",
+        "https://en.wikipedia.org/wiki/European_potato_failure"
+      ]
+    },
+    {
+      "id": "spark",
+      "mood": "tense",
+      "narration": "Then, in late February, Paris rose. In three days of street fighting the French king was driven from his throne. On the thirteenth of March, students marched in Vienna. Troops fired. That same day, Metternich resigned, and soon the man who had dominated Europe for over thirty years was an exile in England.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Henri Félix Philippoteaux - Lamartine repoussant le drapeau rouge à l'Hôtel de Ville, le 25 février 1848 - P258 - Musée Carnavalet.jpg",
+          "query": "Lamartine Hôtel de Ville 25 février 1848",
+          "motion": "pan_right",
+          "caption": "Paris, 25 February 1848: Lamartine before the Hôtel de Ville"
+        },
+        {
+          "kind": "map",
+          "map": {
+            "title": "1848: revolution spreads from Paris",
+            "extent": [
+              -5.0,
+              24.0,
+              41.0,
+              56.5
+            ],
+            "markers": [
+              {
+                "name": "Paris",
+                "lon": 2.35,
+                "lat": 48.86,
+                "label": "Paris, 22–24 Feb"
+              },
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "label": "Vienna, 13 Mar"
+              },
+              {
+                "name": "Budapest",
+                "lon": 19.04,
+                "lat": 47.5,
+                "label": "Pest, 15 Mar"
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "label": "Berlin, 18 Mar"
+              },
+              {
+                "name": "Milan",
+                "lon": 9.19,
+                "lat": 45.46,
+                "label": "Milan, 18 Mar"
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  2.35,
+                  48.86
+                ],
+                "to_lonlat": [
+                  16.37,
+                  48.21
+                ]
+              },
+              {
+                "from_lonlat": [
+                  2.35,
+                  48.86
+                ],
+                "to_lonlat": [
+                  13.4,
+                  52.52
+                ]
+              },
+              {
+                "from_lonlat": [
+                  2.35,
+                  48.86
+                ],
+                "to_lonlat": [
+                  9.19,
+                  45.46
+                ]
+              },
+              {
+                "from_lonlat": [
+                  16.37,
+                  48.21
+                ],
+                "to_lonlat": [
+                  19.04,
+                  47.5
+                ]
+              }
+            ]
+          },
+          "motion": "zoom_out",
+          "weight": 1.3
+        },
+        {
+          "kind": "archival",
+          "file": "File:BACH(1898) p289 Barricade auf dem Stefansplatz am 26.05.1848.jpg",
+          "query": "Vienna 1848 barricade Stephansplatz",
+          "motion": "zoom_in",
+          "caption": "Barricade on Stephansplatz, Vienna, May 1848"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/Klemens_von_Metternich"
+      ]
+    },
+    {
+      "id": "berlin",
+      "mood": "tense",
+      "narration": "In Berlin, King Friedrich Wilhelm the Fourth hesitated. A romantic who believed he ruled by divine right, he loathed the idea of a written constitution. On the eighteenth of March a crowd filled the square before his palace. Two shots rang out, probably by accident. Within hours the city was a fortress of barricades, by one count more than nine hundred. After a night of fighting, the king blinked. He promised reforms and pulled his troops out of the city.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:1846 Krueger Friedrich Wilhelm IV anagoria.JPG",
+          "query": "Friedrich Wilhelm IV Krüger portrait",
+          "motion": "zoom_in",
+          "caption": "King Friedrich Wilhelm IV of Prussia, by Franz Krüger, 1846"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Barrikade in der Breiten Straße.jpg",
+          "query": "Barrikade Breite Straße Berlin 1848",
+          "motion": "pan_left",
+          "caption": "Barricade on Breite Straße, Berlin, March 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:1848 Barrikadenkampf vor dem köllnischen Rathause zu Berlin.jpg",
+          "query": "Barrikadenkampf köllnisches Rathaus Berlin 1848",
+          "motion": "pan_up",
+          "caption": "Fighting at the Cölln town hall, Berlin, 18–19 March 1848"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin"
+      ]
+    },
+    {
+      "id": "hats_off",
+      "mood": "somber",
+      "narration": "The next afternoon, the people carried their dead to the palace, bodies uncovered, wounds on display. They called for the king. When he appeared, the crowd shouted: hats off! And the King of Prussia bared his head before the men his soldiers had killed. Two days later he rode through Berlin wearing a black, red and gold armband, the colours of German unity. It looked like total victory.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Aufbahrung der Märzgefallenen (1848) Adolf Friedrich Erdmann von Menzel (Hamburger Kunsthalle).jpg",
+          "query": "Menzel Aufbahrung der Märzgefallenen",
+          "motion": "pan_right",
+          "weight": 1.3,
+          "caption": "Adolph Menzel, The Laying Out of the March Dead, 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Leichenbegängniss der in den Märztagen Gefallenen am 22. März.png",
+          "query": "Leichenbegängnis Märzgefallene Berlin 22. März 1848",
+          "motion": "zoom_in",
+          "caption": "Funeral of the March dead, Berlin, 22 March 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Franz Krüger - Porträt des Königs Friedrich Wilhelm IV. von Preußen.jpg",
+          "query": "Friedrich Wilhelm IV portrait",
+          "motion": "zoom_out",
+          "caption": "Friedrich Wilhelm IV"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin"
+      ]
+    },
+    {
+      "id": "hecker",
+      "mood": "tense",
+      "narration": "But not everyone wanted to negotiate with kings. In Baden, a fiery lawyer named Friedrich Hecker wanted a republic, now. In April he called the people to arms. He hoped for tens of thousands. A few thousand came. Near the village of Kandern, government troops met his volunteers. Their commander, General Friedrich von Gagern, tried to talk them into surrender, and was shot dead. Hecker fled to Switzerland. And the dead general's younger brother was about to lead Germany's first parliament.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Illustrirte Chronik Friedrich Hecker 1848.jpg",
+          "query": "Friedrich Hecker 1848 portrait",
+          "motion": "zoom_in",
+          "caption": "Friedrich Hecker, 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:\"Morgen brechen wir auf\" - Friedrich Hecker in Konstanz.jpg",
+          "query": "Friedrich Hecker Konstanz mural",
+          "motion": "pan_left",
+          "caption": "Modern mural of Hecker and his volunteers, Konstanz"
+        },
+        {
+          "kind": "archival",
+          "file": "File:\"Tod des Generals Friedrich Freiherrn von Gagern, bei Kandern am 20. April (1848).\" - LABW - Generallandesarchiv Karlsruhe J-G G 1.jpg",
+          "query": "Tod des Generals von Gagern Kandern 1848",
+          "motion": "zoom_out",
+          "caption": "Death of General Friedrich von Gagern near Kandern, 20 April 1848"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Friedrich_Hecker",
+        "https://en.wikipedia.org/wiki/Friedrich_Balduin_von_Gagern",
+        "https://de.wikipedia.org/wiki/Badische_Revolution"
+      ]
+    },
+    {
+      "id": "paulskirche",
+      "mood": "hopeful",
+      "narration": "On the eighteenth of May, 1848, the first freely elected parliament for all of Germany filed into St Paul's Church in Frankfurt. Above them hung a painting of Germania, sword in hand. They chose Heinrich von Gagern as their president. So many lawyers and scholars sat in its benches that people mocked it as the professors' parliament. Now they had to write a constitution for a country that did not yet exist.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Paulskirche einzugparlamentarierer1848.jpg",
+          "query": "Einzug der Parlamentarier Paulskirche 1848",
+          "motion": "pan_up",
+          "caption": "Deputies process into St Paul's Church, Frankfurt, May 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Zeitgenössige Lithografie der Nationalversammlung in der Paulskirche.jpg",
+          "query": "Nationalversammlung Paulskirche Lithografie",
+          "motion": "pan_right",
+          "weight": 1.3,
+          "caption": "The National Assembly in session, St Paul's Church, 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Eduard von Heuss - Heinrich von Gagern, 1848.jpg",
+          "query": "Heinrich von Gagern 1848 portrait",
+          "motion": "zoom_in",
+          "caption": "Heinrich von Gagern, President of the National Assembly"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament",
+        "https://de.wikipedia.org/wiki/Heinrich_von_Gagern"
+      ]
+    },
+    {
+      "id": "debate",
+      "mood": "neutral",
+      "narration": "And they argued. Should Germany include Austria, and with it an empire of Czechs, Hungarians and Italians? Or should it be a smaller Germany, led by Prussia? While the speeches went on for months, the parliament had no army, no tax collectors, no police of its own. The kings still had all three. And in the autumn, they began to use them.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Frankfurt Am Main-Jakob Fuerchtegott Dielmann-FFMADIUSAAUNZ-021-Das Innere der Paulskirche als Parlamentshaus.jpg",
+          "query": "Innere der Paulskirche als Parlamentshaus",
+          "motion": "zoom_out",
+          "caption": "Inside St Paul's Church as a parliament, after Jakob Fürchtegott Dielmann"
+        },
+        {
+          "kind": "title_card",
+          "text": "Greater Germany or Lesser Germany?",
+          "subtext": "With Austria, or without it and led by Prussia",
+          "motion": "static"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Frankfurt Nationalversammlung 1848.jpg",
+          "query": "Frankfurter Nationalversammlung 1848",
+          "motion": "pan_left",
+          "caption": "The Frankfurt National Assembly, 1848"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament"
+      ]
+    },
+    {
+      "id": "blum",
+      "mood": "somber",
+      "narration": "Robert Blum was the voice of the left in Frankfurt. Born poor in Cologne, he had worked his way up from theatre servant to politician. In October 1848, Vienna rose again, and Blum went there with a delegation from Frankfurt. He joined the defenders. The imperial army stormed the city. Blum was arrested and claimed immunity as a member of the national parliament. It made no difference. Early on the ninth of November, he was shot by firing squad.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Portrait of Robert Blum by August Hunger.jpg",
+          "query": "Robert Blum portrait",
+          "motion": "zoom_in",
+          "caption": "Robert Blum, deputy for Leipzig"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Kaiserliche Truppen vor den Stadtmauern Wiens 1848.jpg",
+          "query": "Windischgrätz troops Vienna October 1848",
+          "motion": "pan_right",
+          "caption": "Imperial troops under Windischgrätz outside Vienna, October 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:BACH(1898) p751 Sturmangriff auf eine Barricade in der Leopoldstadt, Oktober 1848.jpg",
+          "query": "Sturmangriff Barricade Leopoldstadt Oktober 1848",
+          "motion": "zoom_out",
+          "caption": "Troops storm a barricade in Leopoldstadt, Vienna, October 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:1848 Steffeck Robert Blums Ende anagoria.JPG",
+          "query": "Steffeck Robert Blums Ende",
+          "motion": "pan_left",
+          "weight": 1.2,
+          "caption": "Carl Steffeck, The End of Robert Blum, 1848"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Robert_Blum",
+        "https://en.wikipedia.org/wiki/Robert_Blum"
+      ]
+    },
+    {
+      "id": "blum_words",
+      "mood": "somber",
+      "narration": "His reported last words: I die for German freedom, for which I have fought. The next day, Prussian troops marched back into Berlin. The counter-revolution had begun.",
+      "visuals": [
+        {
+          "kind": "quote",
+          "text": "I die for German freedom, for which I have fought. May the Fatherland remember me.",
+          "subtext": "Robert Blum, reported last words, Vienna, 9 November 1848",
+          "motion": "static",
+          "weight": 1.4
+        },
+        {
+          "kind": "archival",
+          "file": "File:RB-Hinrichtung.jpeg",
+          "query": "Hinrichtung Robert Blum Brigittenau",
+          "motion": "zoom_in",
+          "caption": "The execution of Robert Blum, Brigittenau, 9 November 1848"
+        }
+      ],
+      "pause_after": 1.0,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Robert_Blum",
+        "https://parlament-berlin.de/Das-Haus/Berliner-Ehrenbuerger/friedrich-heinrich-ernst-graf-von-wrangel"
+      ]
+    },
+    {
+      "id": "constitution",
+      "mood": "hopeful",
+      "narration": "Yet Frankfurt kept working. In December it passed the Basic Rights of the German People: equality before the law, freedom of the press, of faith, of assembly, and the abolition of the death penalty in most cases. By March 1849 the constitution was done, with a hereditary emperor at its head. On the twenty-eighth of March, the parliament elected Friedrich Wilhelm the Fourth Emperor of the Germans. But the king had already made up his mind.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Heinrich von Gagern 1848.jpg",
+          "query": "Heinrich von Gagern 1848",
+          "motion": "zoom_in",
+          "caption": "Heinrich von Gagern, 1848"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Eduard von Simson by Fritz Paulsen.jpg",
+          "query": "Eduard von Simson portrait",
+          "motion": "pan_down",
+          "caption": "Eduard Simson, president of the assembly in 1849"
+        },
+        {
+          "kind": "title_card",
+          "text": "28 March 1849",
+          "subtext": "Friedrich Wilhelm IV elected Emperor of the Germans: 290 votes, 248 abstentions",
+          "motion": "static"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Grundrechte_des_deutschen_Volkes",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung",
+        "https://de.wikipedia.org/wiki/Kaiserdeputation"
+      ]
+    },
+    {
+      "id": "refusal",
+      "mood": "somber",
+      "narration": "Months earlier, in a private letter, he had called such a crown an imaginary hoop baked from mud and clay, reeking of revolution. On the third of April, 1849, Eduard Simson led the parliament's delegation into the royal palace in Berlin. The king would not accept. Within weeks the refusal was final. Twenty-eight smaller governments had accepted the constitution. Prussia and Austria did not. The great work of Frankfurt was dead on arrival.",
+      "visuals": [
+        {
+          "kind": "quote",
+          "text": "Such an imaginary hoop, baked from mud and clay: should a legitimate king by the grace of God, and the King of Prussia at that, let himself be given it?",
+          "subtext": "Friedrich Wilhelm IV, letter to Christian von Bunsen, 13 December 1848",
+          "motion": "static",
+          "weight": 1.6
+        },
+        {
+          "kind": "archival",
+          "file": "File:Blos 527 Kaiserdeputation.jpg",
+          "query": "Kaiserdeputation 1849 Berlin Friedrich Wilhelm IV",
+          "motion": "pan_up",
+          "caption": "The imperial deputation before Friedrich Wilhelm IV, Berlin, 3 April 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Friedrich Wilhelm IV von preussen 1847.jpg",
+          "query": "Friedrich Wilhelm IV portrait 1847",
+          "motion": "zoom_in",
+          "caption": "Friedrich Wilhelm IV, c. 1847"
+        }
+      ],
+      "pause_after": 1.0,
+      "sources": [
+        "https://www.dhm.de/assets/DHM/Download/Publikationen/Begleitheft_RNT/1848_Aufgaben_G04.pdf",
+        "https://de.wikipedia.org/wiki/Kaiserdeputation",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung"
+      ]
+    },
+    {
+      "id": "last_stand",
+      "mood": "tense",
+      "narration": "So the people tried to force it through. In May 1849, Dresden rose, with the composer Richard Wagner among the rebels. Saxon and Prussian troops crushed it within a week. In Baden, the soldiers of the fortress of Rastatt mutinied, and the Grand Duke fled his own country. What was left of the parliament retreated to Stuttgart. On the eighteenth of June, soldiers broke it up.",
+      "visuals": [
+        {
+          "kind": "map",
+          "map": {
+            "title": "The last stand, May–July 1849",
+            "extent": [
+              5.5,
+              16.0,
+              47.0,
+              53.0
+            ],
+            "markers": [
+              {
+                "name": "Dresden",
+                "lon": 13.74,
+                "lat": 51.05,
+                "label": "Dresden, 3–9 May"
+              },
+              {
+                "name": "Rastatt",
+                "lon": 8.2,
+                "lat": 48.86,
+                "label": "Rastatt, 9 May"
+              },
+              {
+                "name": "Karlsruhe",
+                "lon": 8.4,
+                "lat": 49.01
+              },
+              {
+                "name": "Stuttgart",
+                "lon": 9.18,
+                "lat": 48.78,
+                "label": "Stuttgart, 18 June"
+              },
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "to_lonlat": [
+                  9.18,
+                  48.78
+                ],
+                "label": "Rump parliament moves"
+              }
+            ]
+          },
+          "motion": "zoom_in",
+          "weight": 1.3
+        },
+        {
+          "kind": "archival",
+          "file": "File:Gefechtsplan von Dresden 1849.jpg",
+          "query": "Gefechtsplan Dresden 1849 Maiaufstand",
+          "motion": "pan_right",
+          "caption": "Battle plan of the Dresden May Uprising, 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Ausbruch des Aufstands in Rastatt 13 Mai 1849.jpg",
+          "query": "Aufstand Rastatt Mai 1849",
+          "motion": "zoom_out",
+          "caption": "Uprising in Rastatt, May 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Württembergisches Militär im Einsatz gegen das Rumpfparlament 1849.jpg",
+          "query": "Rumpfparlament Stuttgart 1849 Militär",
+          "motion": "pan_left",
+          "caption": "Württemberg troops disperse the rump parliament, Stuttgart, 18 June 1849"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament"
+      ]
+    },
+    {
+      "id": "rastatt",
+      "mood": "somber",
+      "narration": "Against Baden marched a Prussian army led by the king's brother, Prince Wilhelm. The rebels fell back into Rastatt. For three weeks the fortress held. On the twenty-third of July, 1849, it surrendered. Courts-martial followed, and twenty-seven men were executed in Baden. Inside Rastatt was a twenty-year-old student named Carl Schurz. He knew what awaited him. So he crawled out through an unguarded sewer and escaped across the Rhine into France.",
+      "visuals": [
+        {
+          "kind": "map",
+          "map": {
+            "title": "Baden, 1848–49",
+            "extent": [
+              6.6,
+              10.2,
+              47.3,
+              49.9
+            ],
+            "markers": [
+              {
+                "name": "Rastatt",
+                "lon": 8.2,
+                "lat": 48.86,
+                "label": "Rastatt, surrendered 23 July 1849"
+              },
+              {
+                "name": "Karlsruhe",
+                "lon": 8.4,
+                "lat": 49.01
+              },
+              {
+                "name": "Mannheim",
+                "lon": 8.47,
+                "lat": 49.49
+              },
+              {
+                "name": "Freiburg",
+                "lon": 7.85,
+                "lat": 47.99
+              },
+              {
+                "name": "Kandern",
+                "lon": 7.66,
+                "lat": 47.71,
+                "label": "Kandern, 20 April 1848"
+              },
+              {
+                "name": "Konstanz",
+                "lon": 9.18,
+                "lat": 47.66
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.6,
+                  49.8
+                ],
+                "to_lonlat": [
+                  8.3,
+                  49.0
+                ],
+                "label": "Prussian army, June 1849"
+              }
+            ]
+          },
+          "motion": "zoom_in"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Preußisches Lager bei Rauental.jpg",
+          "query": "Preußisches Lager Rauental Rastatt 1849",
+          "motion": "pan_right",
+          "weight": 1.2,
+          "caption": "Prussian camp at Rauental during the siege of Rastatt, 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Entwaffnung der Insurgentenbesatzung von Rastatt.jpg",
+          "query": "Entwaffnung Besatzung Rastatt 1849",
+          "motion": "zoom_out",
+          "caption": "The rebel garrison of Rastatt is disarmed, July 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Gefangene Freischärler in einer Rastatter Kasematte.png",
+          "query": "Gefangene Freischärler Rastatt Kasematte",
+          "motion": "pan_left",
+          "caption": "Captured volunteers in a Rastatt casemate"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://en.wikipedia.org/wiki/Carl_Schurz",
+        "https://journals.ku.edu/ygas/article/download/18285/16434/44889"
+      ]
+    },
+    {
+      "id": "exiles",
+      "mood": "neutral",
+      "narration": "Schurz was not alone. Tens of thousands left Baden in the years that followed, driven by poverty as much as politics. Many went to America. They were called the Forty-Eighters. Friedrich Hecker became a farmer in Illinois and a colonel in the Union army. Carl Schurz became a Union general, a senator from Missouri, and Secretary of the Interior.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:1849.Badensche Gefangene.jpg",
+          "query": "Badische Gefangene 1849 preußische Soldaten",
+          "motion": "pan_right",
+          "caption": "Prussian soldiers lead away prisoners in Baden, 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Carl Schurz 1879.jpg",
+          "query": "Carl Schurz portrait",
+          "motion": "zoom_in",
+          "caption": "Carl Schurz, US Secretary of the Interior, 1879"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Carl Schurz playing the piano for President Hayes and his family.jpg",
+          "query": "Carl Schurz piano President Hayes",
+          "motion": "pan_left",
+          "caption": "Carl Schurz at the piano for President Hayes and his family"
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://en.wikipedia.org/wiki/Friedrich_Hecker",
+        "https://en.wikipedia.org/wiki/Carl_Schurz"
+      ]
+    },
+    {
+      "id": "why_it_failed",
+      "mood": "somber",
+      "narration": "So why did it fail? The revolution won the streets in spring, then handed power back to the princes and asked them to share it. Liberals feared the radicals more than the kings. And when it came to the crown, the parliament needed the one man who despised it. Germany would be united in 1871, but by Prussian armies, not by a parliament. Its first emperor was the same Prince Wilhelm who had crushed Rastatt.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Tote Freischärler vor Rastatt.jpg",
+          "query": "Tote Freischärler vor Rastatt 1849",
+          "motion": "zoom_out",
+          "caption": "Dead volunteers outside Rastatt, 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Weisenbach am 24. Juni 1849.jpg",
+          "query": "Weisenbach 24 Juni 1849",
+          "motion": "pan_left",
+          "caption": "Fighting at Weisenbach, Baden, 24 June 1849"
+        },
+        {
+          "kind": "archival",
+          "file": "File:008241-Inv---WGM-Katalog-56---Rastatt-Festung-1857 web.jpg",
+          "query": "Rastatt Festung 1857",
+          "motion": "pan_right",
+          "caption": "The fortress of Rastatt, 1857"
+        }
+      ],
+      "pause_after": 0.8,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/William_I,_German_Emperor"
+      ]
+    },
+    {
+      "id": "legacy",
+      "mood": "triumphant",
+      "narration": "Yet the story does not end there. In 1919, the Weimar Republic made black, red and gold the national flag and borrowed from Frankfurt's basic rights. In 1949, the authors of West Germany's Basic Law quoted the Paulskirche constitution as they wrote. Its Article 22 says simply: the federal flag is black, red and gold. The men of 1848 lost every battle. But the country they imagined is the one Germany became.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Enemy Activities - German Republic - German National Assembly. First National Assembly of Germany in session at Weimar. Gives a general view of assembly, showing the men and women delegates representing the vario(...) - NARA - 31478667.jpg",
+          "query": "Weimar National Assembly 1919 session",
+          "motion": "pan_right",
+          "caption": "The National Assembly in session at Weimar, 1919"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Paulskirche Frankfurt am Main 2021-08-17 01.jpg",
+          "query": "Paulskirche Frankfurt",
+          "motion": "zoom_in",
+          "caption": "St Paul's Church, Frankfurt, today"
+        },
+        {
+          "kind": "title_card",
+          "text": "Black, red and gold",
+          "subtext": "1848 · 1919 · 1949",
+          "motion": "static"
+        },
+        {
+          "kind": "archival",
+          "file": "File:Image Germania (painting).jpg",
+          "query": "Germania Paulskirche 1848",
+          "motion": "zoom_out",
+          "caption": "Germania, St Paul's Church, 1848"
+        }
+      ],
+      "pause_after": 1.5,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flag_of_Germany",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung"
+      ]
+    }
+  ],
+  "sources": [
+    "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin",
+    "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+    "https://en.wikipedia.org/wiki/Frankfurt_Parliament",
+    "https://de.wikipedia.org/wiki/Heinrich_von_Gagern",
+    "https://de.wikipedia.org/wiki/Kaiserdeputation",
+    "https://www.dhm.de/assets/DHM/Download/Publikationen/Begleitheft_RNT/1848_Aufgaben_G04.pdf",
+    "https://de.wikipedia.org/wiki/Robert_Blum",
+    "https://en.wikipedia.org/wiki/Robert_Blum",
+    "https://de.wikipedia.org/wiki/Badische_Revolution",
+    "https://en.wikipedia.org/wiki/Friedrich_Hecker",
+    "https://en.wikipedia.org/wiki/Friedrich_Balduin_von_Gagern",
+    "https://en.wikipedia.org/wiki/Carl_Schurz",
+    "https://journals.ku.edu/ygas/article/download/18285/16434/44889",
+    "https://de.wikipedia.org/wiki/Grundrechte_des_deutschen_Volkes",
+    "https://de.wikipedia.org/wiki/Paulskirchenverfassung",
+    "https://en.wikipedia.org/wiki/Flag_of_Germany",
+    "https://en.wikipedia.org/wiki/Klemens_von_Metternich",
+    "https://parlament-berlin.de/Das-Haus/Berliner-Ehrenbuerger/friedrich-heinrich-ernst-graf-von-wrangel",
+    "https://de.wikipedia.org/wiki/Kartoffelrevolution",
+    "https://en.wikipedia.org/wiki/European_potato_failure"
+  ]
+}
