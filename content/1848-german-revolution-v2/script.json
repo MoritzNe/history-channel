@@ -1,0 +1,5993 @@
+{
+  "slug": "1848-german-revolution-v2",
+  "title": "Why Germany's 1848 Revolution Won Everything, Then Lost It",
+  "description": "In March 1848 the German revolution won almost everywhere: princes gave way, censorship ended, and Germany's first freely elected parliament met in Frankfurt's St Paul's Church. Sixteen months later the last revolutionaries surrendered at the fortress of Rastatt. Why?\n\nThis explainer walks through the map Germany started from in 1815, what liberals and democrats actually wanted, the Schleswig-Holstein war, the impossible choice between a Greater and a Lesser Germany, the crown Friedrich Wilhelm IV refused, and the Prussian campaigns of 1849, with animated maps for every step. It ends with the Forty-Eighters who emigrated to America and the Frankfurt constitution's afterlife in 1919 and 1949.",
+  "tags": [
+    "1848",
+    "German Revolution",
+    "Revolutions of 1848",
+    "March Revolution",
+    "Frankfurt Parliament",
+    "Paulskirche",
+    "German Confederation",
+    "Greater Germany",
+    "Lesser Germany",
+    "Schleswig-Holstein",
+    "Metternich",
+    "Friedrich Wilhelm IV",
+    "Forty-Eighters",
+    "German history",
+    "history explained",
+    "animated map"
+  ],
+  "language": "en",
+  "voice": null,
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "mood": "neutral",
+      "narration": "In the spring of 1848, revolution swept Europe. Paris rose in February; within a month, Vienna, Budapest, Milan and Berlin followed. Across the German states, rulers gave way. By May, an elected German parliament sat in Frankfurt. Little more than a year later, all of it was gone. So why did a revolution that won almost everywhere in March 1848 lose everything by July 1849?",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Europe, spring 1848",
+            "extent": [
+              -6.0,
+              26.0,
+              40.5,
+              58.0
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Paris",
+                "lon": 2.35,
+                "lat": 48.86,
+                "style": "uprising",
+                "label": "Paris, 24 Feb",
+                "at": 0.18
+              },
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "uprising",
+                "label": "Vienna, 13 Mar",
+                "at": 0.35
+              },
+              {
+                "name": "Budapest",
+                "lon": 19.04,
+                "lat": 47.5,
+                "style": "uprising",
+                "label": "Pest, 15 Mar",
+                "at": 0.39
+              },
+              {
+                "name": "Milan",
+                "lon": 9.19,
+                "lat": 45.46,
+                "style": "uprising",
+                "label": "Milan, 18 Mar",
+                "at": 0.43
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "uprising",
+                "label": "Berlin, 18 Mar",
+                "at": 0.47
+              },
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt parliament",
+                "at": 0.93,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.6,
+                "color": "#c9a227"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "February 1848",
+                "at": 0.18
+              },
+              {
+                "text": "March 1848",
+                "at": 0.28
+              },
+              {
+                "text": "May 1848",
+                "at": 0.74
+              }
+            ]
+          },
+          "weight": 1.23
+        },
+        {
+          "kind": "title_card",
+          "text": "Won in March, Lost by July",
+          "subtext": "The German Revolutions of 1848–49",
+          "motion": "static",
+          "weight": 0.77
+        }
+      ],
+      "pause_after": 1.0,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament"
+      ]
+    },
+    {
+      "id": "s02_confederation",
+      "mood": "neutral",
+      "narration": "The answer has three parts: the map Germany started from, the revolutionaries' own divisions, and two great powers waiting to recover. We start in 1815. That year the Congress of Vienna created not a Germany but the German Confederation: thirty-nine states. Its only common body was a Federal Diet of princes' envoys in Frankfurt. There was no German government, no German army, no German citizenship. Two members were giants, Prussia and Austria, and both ruled large lands outside the Confederation. Austria's empire included Hungarians, Czechs, Poles, Croats and Italians. That will decide the ending.",
+      "visuals": [
+        {
+          "kind": "timeline",
+          "motion": "static",
+          "events": [
+            {
+              "date": "1815",
+              "label": "German Confederation founded",
+              "highlight": true
+            },
+            {
+              "date": "Mar 1848",
+              "label": "March Revolutions",
+              "highlight": false
+            },
+            {
+              "date": "May 1848",
+              "label": "Parliament opens in Frankfurt",
+              "highlight": false
+            },
+            {
+              "date": "Nov 1848",
+              "label": "Counter-revolution",
+              "highlight": false
+            },
+            {
+              "date": "Apr 1849",
+              "label": "Crown refused",
+              "highlight": false
+            },
+            {
+              "date": "Jul 1849",
+              "label": "Rastatt falls",
+              "highlight": false
+            }
+          ],
+          "weight": 1.01
+        },
+        {
+          "kind": "stat",
+          "value": "39",
+          "text": "states in the German Confederation",
+          "motion": "static",
+          "subtext": "at its founding by the Congress of Vienna, 1815",
+          "weight": 0.69
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The German Confederation, 1815–1866",
+            "extent": [
+              -6.0,
+              26.0,
+              40.5,
+              58.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt: Federal Diet",
+                "at": 0.16,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Confederation (approx.)",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              }
+            ],
+            "texts": [
+              {
+                "text": "no government",
+                "lon": 11.0,
+                "lat": 53.0,
+                "size": "small",
+                "at": 0.55
+              },
+              {
+                "text": "no army",
+                "lon": 11.0,
+                "lat": 51.9,
+                "size": "small",
+                "at": 0.7
+              },
+              {
+                "text": "no citizenship",
+                "lon": 11.0,
+                "lat": 50.8,
+                "size": "small",
+                "at": 0.82
+              }
+            ]
+          },
+          "weight": 0.95
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Two great powers",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1815",
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "color": "#c9a227"
+              },
+              {
+                "label": "Prussia",
+                "historical": [
+                  "Prussia"
+                ],
+                "at": 0.09,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Austrian Empire",
+                "historical": [
+                  "Austrian Empire",
+                  "Lombardy",
+                  "Venetia"
+                ],
+                "at": 0.13,
+                "color": "#9b2d20"
+              }
+            ],
+            "texts": [
+              {
+                "text": "EAST PRUSSIA",
+                "lon": 21.0,
+                "lat": 54.3,
+                "size": "small",
+                "at": 0.33
+              },
+              {
+                "text": "POSEN",
+                "lon": 17.2,
+                "lat": 52.3,
+                "size": "small",
+                "at": 0.37
+              },
+              {
+                "text": "HUNGARY",
+                "lon": 20.5,
+                "lat": 47.0,
+                "size": "medium",
+                "at": 0.59
+              },
+              {
+                "text": "GALICIA",
+                "lon": 22.5,
+                "lat": 49.8,
+                "size": "small",
+                "at": 0.69
+              },
+              {
+                "text": "LOMBARDY–VENETIA",
+                "lon": 10.8,
+                "lat": 45.3,
+                "size": "small",
+                "at": 0.78
+              }
+            ]
+          },
+          "weight": 1.34
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_Confederation",
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states"
+      ]
+    },
+    {
+      "id": "s03_metternich",
+      "mood": "neutral",
+      "narration": "Austria's chancellor, Prince Metternich, guarded this order. He feared two ideas: liberalism, meaning constitutions and a free press, and nationalism, the idea of one German state. Both threatened a multinational empire like his. From 1819, the Carlsbad Decrees put universities under watch and newspapers under censorship. When tens of thousands rallied at Hambach in 1832 under black, red and gold, the Diet answered with more repression.",
+      "visuals": [
+        {
+          "kind": "person",
+          "file": "File:Metternich by Lawrence.jpeg",
+          "text": "Klemens von Metternich",
+          "subtext": "Austrian chancellor, architect of the 1815 order",
+          "motion": "static",
+          "weight": 1.23
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The Metternich system",
+            "extent": [
+              4.0,
+              20.0,
+              45.5,
+              55.5
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "capital",
+                "label": "Vienna",
+                "at": 0.05,
+                "pulse": true
+              },
+              {
+                "name": "Carlsbad",
+                "lon": 12.87,
+                "lat": 50.23,
+                "style": "dot",
+                "label": "Carlsbad Decrees, 1819",
+                "at": 0.42
+              }
+            ],
+            "regions": [
+              {
+                "label": "Censorship across the Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.89,
+                "hatch": true,
+                "color": "#6b6b6b"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "1819",
+                "at": 0.32
+              }
+            ]
+          },
+          "weight": 0.97
+        },
+        {
+          "kind": "archival",
+          "file": "File:Zug auf das Schloss Hambach 1832 Deutschland.png",
+          "caption": "The Hambach Festival, May 1832: black, red and gold",
+          "motion": "pan_right",
+          "weight": 0.79
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Klemens_von_Metternich",
+        "https://en.wikipedia.org/wiki/Carlsbad_Decrees",
+        "https://en.wikipedia.org/wiki/Hambach_Festival"
+      ]
+    },
+    {
+      "id": "s04_pressure",
+      "mood": "neutral",
+      "narration": "The pressure was economic too. Machine-made cloth, much of it British, undercut home weavers. In 1844, Silesian weavers rose, and Prussian troops shot eleven of them. Then came hunger. Potato blight struck in 1845, and the harvest of 1846 failed. In April 1847, hungry Berliners stormed market stalls: the Potato Revolution. Liberals wanted rights and a nation; craftsmen, labourers and peasants wanted bread, work and an end to feudal dues. In March they fought side by side.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Industry and the weavers, 1844",
+            "extent": [
+              -4.0,
+              20.0,
+              46.5,
+              57.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              8.0,
+              19.0,
+              49.0,
+              54.5
+            ],
+            "markers": [
+              {
+                "name": "Peterswaldau",
+                "lon": 16.58,
+                "lat": 50.71,
+                "style": "uprising",
+                "label": "Silesian weavers, June 1844",
+                "at": 0.54,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  -2.24,
+                  53.48
+                ],
+                "to_lonlat": [
+                  9.99,
+                  53.55
+                ],
+                "style": "flow",
+                "draw": 0.3,
+                "label": "British machine-made cloth",
+                "at": 0.16,
+                "via": [
+                  [
+                    1.5,
+                    53.6
+                  ],
+                  [
+                    6.0,
+                    54.0
+                  ]
+                ],
+                "color": "#6b6b6b"
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "color": "#c9a227"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "1844",
+                "at": 0.54
+              }
+            ]
+          },
+          "weight": 1.05
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The hungry years, 1845–47",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "uprising",
+                "label": "Berlin 'Potato Revolution', April 1847",
+                "at": 0.48,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Harvest failure",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.3,
+                "hatch": true,
+                "color": "#6b6b6b"
+              }
+            ],
+            "texts": [
+              {
+                "text": "POTATO BLIGHT 1845",
+                "lon": 9.5,
+                "lat": 52.6,
+                "size": "large",
+                "at": 0.08
+              },
+              {
+                "text": "HARVEST FAILURE 1846",
+                "lon": 11.5,
+                "lat": 48.6,
+                "size": "large",
+                "at": 0.3
+              }
+            ],
+            "stamps": [
+              {
+                "text": "1845",
+                "at": 0.08
+              },
+              {
+                "text": "1846",
+                "at": 0.3
+              },
+              {
+                "text": "April 1847",
+                "at": 0.48
+              }
+            ]
+          },
+          "weight": 0.99
+        },
+        {
+          "kind": "compare",
+          "columns": [
+            {
+              "title": "Middle-class liberals",
+              "points": [
+                "A constitution",
+                "Free press, free assembly",
+                "An elected parliament",
+                "One German nation"
+              ],
+              "color": "#2f4b7c"
+            },
+            {
+              "title": "Craftsmen, labourers, peasants",
+              "points": [
+                "Affordable bread",
+                "Work and fair pay",
+                "An end to feudal dues"
+              ],
+              "color": "#9b2d20"
+            }
+          ],
+          "motion": "static",
+          "weight": 0.96
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Silesian_weavers%27_uprising",
+        "https://en.wikipedia.org/wiki/European_potato_failure",
+        "https://de.wikipedia.org/wiki/Kartoffelrevolution"
+      ]
+    },
+    {
+      "id": "s05_spark",
+      "mood": "tense",
+      "narration": "The spark came from Paris. In late February 1848, after three days of street fighting, the king abdicated and France became a republic. Three days later, a meeting in Mannheim drew up four demands: arming of the people, unconditional freedom of the press, trial by jury, and the immediate creation of a German parliament. These became the March demands.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Paris, February 1848",
+            "extent": [
+              -3.0,
+              14.0,
+              44.5,
+              53.5
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              1.0,
+              11.0,
+              46.5,
+              51.5
+            ],
+            "markers": [
+              {
+                "name": "Paris",
+                "lon": 2.35,
+                "lat": 48.86,
+                "style": "uprising",
+                "label": "Paris: republic declared",
+                "at": 0.08,
+                "pulse": true
+              },
+              {
+                "name": "Mannheim",
+                "lon": 8.47,
+                "lat": 49.49,
+                "style": "city",
+                "label": "Mannheim",
+                "at": 0.75
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  2.35,
+                  48.86
+                ],
+                "to_lonlat": [
+                  8.47,
+                  49.49
+                ],
+                "style": "flow",
+                "draw": 0.22,
+                "label": "News of the republic",
+                "at": 0.72
+              }
+            ],
+            "stamps": [
+              {
+                "text": "22–24 February 1848",
+                "at": 0.08
+              }
+            ]
+          },
+          "weight": 0.77
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The Mannheim demands, 27 February 1848",
+            "extent": [
+              6.4,
+              10.6,
+              48.2,
+              50.6
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Mannheim",
+                "lon": 8.47,
+                "lat": 49.49,
+                "style": "capital",
+                "label": "Mannheim",
+                "at": 0.06,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Baden",
+                "historical": [
+                  "Baden"
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              }
+            ],
+            "texts": [
+              {
+                "text": "1. Arm the people",
+                "lon": 9.25,
+                "lat": 50.25,
+                "size": "small",
+                "at": 0.26
+              },
+              {
+                "text": "2. Free press",
+                "lon": 9.25,
+                "lat": 49.95,
+                "size": "small",
+                "at": 0.36
+              },
+              {
+                "text": "3. Jury trials",
+                "lon": 9.25,
+                "lat": 49.65,
+                "size": "small",
+                "at": 0.52
+              },
+              {
+                "text": "4. A German parliament",
+                "lon": 9.25,
+                "lat": 49.35,
+                "size": "small",
+                "at": 0.61
+              }
+            ],
+            "stamps": [
+              {
+                "text": "27 February 1848",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 1.23
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Mannheimer_Volksversammlung",
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states"
+      ]
+    },
+    {
+      "id": "s06_march",
+      "mood": "tense",
+      "narration": "The princes gave in fast. Baden, Württemberg, Hesse, Saxony and Hanover got liberal March ministries. In Bavaria, the king abdicated. Then came the two capitals that mattered. In Vienna, on the thirteenth of March, troops fired on demonstrators. That evening Metternich resigned. He fled into exile in England.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "March 1848: the princes give way",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "color": "#c9a227"
+              },
+              {
+                "label": "Baden",
+                "historical": [
+                  "Baden"
+                ],
+                "at": 0.17,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Württemberg",
+                "historical": [
+                  "Württemberg"
+                ],
+                "at": 0.22,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Hesse",
+                "historical": [
+                  "Grand Duchy of Hesse"
+                ],
+                "at": 0.32,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Saxony",
+                "historical": [
+                  "Saxony"
+                ],
+                "at": 0.37,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Hanover",
+                "historical": [
+                  "Hanover"
+                ],
+                "at": 0.45,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Bavaria",
+                "historical": [
+                  "Bavaria"
+                ],
+                "at": 0.74,
+                "color": "#2f4b7c"
+              }
+            ],
+            "texts": [
+              {
+                "text": "Ludwig I abdicates",
+                "lon": 11.6,
+                "lat": 47.9,
+                "size": "small",
+                "at": 0.89
+              }
+            ],
+            "stamps": [
+              {
+                "text": "March 1848",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 0.86
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Vienna, 13 March 1848",
+            "extent": [
+              11.0,
+              21.0,
+              45.5,
+              51.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              -4.0,
+              21.0,
+              45.0,
+              55.0
+            ],
+            "markers": [
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "uprising",
+                "label": "Vienna, 13 March",
+                "at": 0.21,
+                "pulse": true
+              },
+              {
+                "name": "London",
+                "lon": -0.13,
+                "lat": 51.51,
+                "style": "city",
+                "label": "London",
+                "at": 0.87
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  16.37,
+                  48.21
+                ],
+                "to_lonlat": [
+                  -0.13,
+                  51.51
+                ],
+                "style": "retreat",
+                "draw": 0.3,
+                "label": "Metternich into exile",
+                "at": 0.8
+              }
+            ],
+            "stamps": [
+              {
+                "text": "13 March 1848",
+                "at": 0.21
+              },
+              {
+                "text": "Metternich resigns",
+                "at": 0.61
+              }
+            ]
+          },
+          "weight": 1.14
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/Klemens_von_Metternich",
+        "https://en.wikipedia.org/wiki/Ludwig_I_of_Bavaria"
+      ]
+    },
+    {
+      "id": "s07_berlin",
+      "mood": "tense",
+      "narration": "Five days later, Berlin. On the eighteenth of March, two shots went off outside the royal palace, most probably by accident. Within hours, Berliners built more than nine hundred barricades, by one count. More than two hundred civilians died, and fewer than fifty soldiers. The next day, King Friedrich Wilhelm the Fourth withdrew his troops. Days later he rode through Berlin wearing black, red and gold.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Berlin, 18 March 1848",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              10.5,
+              16.5,
+              50.8,
+              54.2
+            ],
+            "markers": [
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin",
+                "at": 0.11,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Prussia",
+                "historical": [
+                  "Prussia"
+                ],
+                "at": 0.05,
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "18 March 1848",
+                "at": 0.23
+              }
+            ]
+          },
+          "weight": 0.93
+        },
+        {
+          "kind": "archival",
+          "file": "File:Die Barrikade an der Kronen- und Friedrichstraße in Berlin am 18. März 1848.jpg",
+          "caption": "Barricade at Kronenstraße and Friedrichstraße, Berlin, 18 March 1848",
+          "motion": "zoom_in",
+          "weight": 1.1
+        },
+        {
+          "kind": "person",
+          "file": "File:1846 Krueger Friedrich Wilhelm IV anagoria.JPG",
+          "text": "Friedrich Wilhelm IV",
+          "subtext": "King of Prussia, 1840–1861",
+          "motion": "static",
+          "weight": 0.98
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin"
+      ]
+    },
+    {
+      "id": "s08_parliament",
+      "mood": "hopeful",
+      "narration": "By the end of March, even the old Federal Diet had adopted black, red and gold. Next came the fourth demand: a national parliament. Elections followed across the Confederation, under rules that varied by state. Deputies came to Frankfurt from Königsberg to Trieste. On the eighteenth of May 1848, they walked in procession into St Paul's Church.",
+      "visuals": [
+        {
+          "kind": "timeline",
+          "motion": "static",
+          "events": [
+            {
+              "date": "1815",
+              "label": "German Confederation founded",
+              "highlight": false
+            },
+            {
+              "date": "Mar 1848",
+              "label": "March Revolutions",
+              "highlight": false
+            },
+            {
+              "date": "May 1848",
+              "label": "Parliament opens in Frankfurt",
+              "highlight": true
+            },
+            {
+              "date": "Nov 1848",
+              "label": "Counter-revolution",
+              "highlight": false
+            },
+            {
+              "date": "Apr 1849",
+              "label": "Crown refused",
+              "highlight": false
+            },
+            {
+              "date": "Jul 1849",
+              "label": "Rastatt falls",
+              "highlight": false
+            }
+          ],
+          "weight": 1.15
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Electing a German parliament, spring 1848",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              2.5,
+              22.0,
+              44.5,
+              56.5
+            ],
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt",
+                "at": 0.05,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  20.51,
+                  54.71
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.35,
+                "at": 0.56,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  13.77,
+                  45.65
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.35,
+                "at": 0.6,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  13.4,
+                  52.52
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.3,
+                "at": 0.64,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  16.37,
+                  48.21
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.3,
+                "at": 0.66,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  9.99,
+                  53.55
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.3,
+                "at": 0.68,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  11.58,
+                  48.14
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.3,
+                "at": 0.7,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  6.96,
+                  50.94
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "flow",
+                "draw": 0.25,
+                "at": 0.72,
+                "color": "#c9a227"
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Confederation (approx.)",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              }
+            ],
+            "texts": [
+              {
+                "text": "Königsberg",
+                "lon": 20.5,
+                "lat": 55.15,
+                "size": "small",
+                "at": 0.8
+              },
+              {
+                "text": "Trieste",
+                "lon": 13.8,
+                "lat": 45.25,
+                "size": "small",
+                "at": 0.91
+              }
+            ]
+          },
+          "weight": 1.16
+        },
+        {
+          "kind": "archival",
+          "file": "File:Paulskirche einzugparlamentarierer1848.jpg",
+          "caption": "Deputies enter St Paul's Church, Frankfurt, 18 May 1848",
+          "motion": "pan_up",
+          "weight": 0.69
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flag_of_Germany",
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament",
+        "https://de.wikipedia.org/wiki/Frankfurter_Nationalversammlung"
+      ]
+    },
+    {
+      "id": "s09_who",
+      "mood": "neutral",
+      "narration": "The Assembly had about five hundred and eighty-five seats. Counting substitutes, around eight hundred men served. Most were judges, civil servants, lawyers and professors; one historian counted not a single worker. People called it the professors' parliament. Its president was Heinrich von Gagern, a Hessian liberal who wanted a constitutional monarchy.",
+      "visuals": [
+        {
+          "kind": "stat",
+          "value": "585",
+          "text": "seats in the National Assembly",
+          "motion": "static",
+          "subtext": "about 809 men served in them, counting substitutes (figures vary)",
+          "weight": 0.96
+        },
+        {
+          "kind": "archival",
+          "file": "File:Zeitgenössige Lithografie der Nationalversammlung in der Paulskirche.jpg",
+          "caption": "The National Assembly in session, St Paul's Church, 1848",
+          "motion": "pan_right",
+          "weight": 1.24
+        },
+        {
+          "kind": "person",
+          "file": "File:Eduard von Heuss - Heinrich von Gagern, 1848.jpg",
+          "text": "Heinrich von Gagern",
+          "subtext": "President of the National Assembly, 1848",
+          "motion": "static",
+          "weight": 0.8
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Frankfurter_Nationalversammlung",
+        "https://de.wikipedia.org/wiki/Heinrich_von_Gagern"
+      ]
+    },
+    {
+      "id": "s10_divided",
+      "mood": "neutral",
+      "narration": "It was divided from the start. Liberals like Gagern wanted a constitutional monarchy, built with the princes. Democrats wanted popular sovereignty, an equal vote for all men, often a republic. Some were ready to fight. One of them, the Mannheim lawyer Friedrich Hecker, had not waited for Frankfurt.",
+      "visuals": [
+        {
+          "kind": "compare",
+          "columns": [
+            {
+              "title": "Liberals",
+              "points": [
+                "Constitutional monarchy",
+                "Reform with the princes",
+                "Vote often tied to property",
+                "e.g. Heinrich von Gagern"
+              ],
+              "color": "#2f4b7c"
+            },
+            {
+              "title": "Democrats",
+              "points": [
+                "Sovereignty of the people",
+                "Often a republic",
+                "Equal vote for all men",
+                "e.g. Robert Blum, Friedrich Hecker"
+              ],
+              "color": "#9b2d20"
+            }
+          ],
+          "motion": "static",
+          "weight": 1.29
+        },
+        {
+          "kind": "person",
+          "file": "File:Illustrirte Chronik Friedrich Hecker 1848.jpg",
+          "text": "Friedrich Hecker",
+          "subtext": "Democrat, lawyer from Mannheim",
+          "motion": "static",
+          "weight": 0.71
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament",
+        "https://en.wikipedia.org/wiki/Friedrich_Hecker"
+      ]
+    },
+    {
+      "id": "s11_hecker",
+      "mood": "tense",
+      "narration": "In April 1848 he set out from Konstanz to march on Karlsruhe and declare a republic. He expected tens of thousands. His column wound west through the Black Forest. Near Kandern, government troops scattered his roughly one thousand men. The general killed that day was Friedrich von Gagern, older brother of the future parliament president. Hecker fled to Switzerland.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Hecker's march, April 1848",
+            "extent": [
+              6.6,
+              10.4,
+              47.25,
+              49.9
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.2,
+              10.0,
+              47.3,
+              49.2
+            ],
+            "markers": [
+              {
+                "name": "Konstanz",
+                "lon": 9.17,
+                "lat": 47.66,
+                "style": "uprising",
+                "label": "Konstanz, 13 April",
+                "at": 0.15,
+                "pulse": true
+              },
+              {
+                "name": "Karlsruhe",
+                "lon": 8.4,
+                "lat": 49.01,
+                "style": "capital",
+                "label": "Karlsruhe: the goal",
+                "at": 0.28
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  9.17,
+                  47.66
+                ],
+                "to_lonlat": [
+                  7.66,
+                  47.71
+                ],
+                "style": "route",
+                "draw": 0.3,
+                "label": "Hecker's column (approx.)",
+                "at": 0.75,
+                "via": [
+                  [
+                    8.97,
+                    47.74
+                  ],
+                  [
+                    9.01,
+                    47.85
+                  ],
+                  [
+                    8.77,
+                    47.86
+                  ],
+                  [
+                    8.45,
+                    47.74
+                  ],
+                  [
+                    8.34,
+                    47.82
+                  ],
+                  [
+                    8.0,
+                    47.8
+                  ]
+                ],
+                "color": "#9b2d20"
+              }
+            ],
+            "regions": [
+              {
+                "label": "Baden",
+                "historical": [
+                  "Baden"
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              }
+            ],
+            "texts": [
+              {
+                "text": "BLACK FOREST",
+                "lon": 8.15,
+                "lat": 48.3,
+                "size": "medium",
+                "at": 0.89
+              }
+            ],
+            "stamps": [
+              {
+                "text": "13 April 1848",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 0.89
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Kandern, 20 April 1848",
+            "extent": [
+              7.2,
+              10.0,
+              47.3,
+              49.2
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.0,
+              8.8,
+              47.3,
+              48.3
+            ],
+            "markers": [
+              {
+                "name": "Kandern",
+                "lon": 7.66,
+                "lat": 47.71,
+                "style": "battle",
+                "label": "Kandern, 20 April",
+                "at": 0.05,
+                "pulse": true
+              },
+              {
+                "name": "Basel",
+                "lon": 7.59,
+                "lat": 47.56,
+                "style": "city",
+                "label": "Basel",
+                "at": 0.91
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  7.66,
+                  47.71
+                ],
+                "to_lonlat": [
+                  7.75,
+                  47.48
+                ],
+                "style": "retreat",
+                "draw": 0.2,
+                "label": "Hecker flees",
+                "at": 0.84
+              }
+            ],
+            "texts": [
+              {
+                "text": "SWITZERLAND",
+                "lon": 8.2,
+                "lat": 47.42,
+                "size": "medium",
+                "at": 0.91
+              }
+            ],
+            "stamps": [
+              {
+                "text": "20 April 1848",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 1.11
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Heckerzug",
+        "https://en.wikipedia.org/wiki/Friedrich_Hecker",
+        "https://en.wikipedia.org/wiki/Friedrich_Balduin_von_Gagern"
+      ]
+    },
+    {
+      "id": "s12_schleswig",
+      "mood": "neutral",
+      "narration": "The first test came in the north. Schleswig and Holstein were ruled by the Danish king, but only Holstein was in the Confederation. When Danish nationalists moved to bind Schleswig to Denmark, Germans there revolted, and Frankfurt backed them. But Frankfurt had no army, so Prussian troops marched into Schleswig for it. Then, under great-power pressure, Prussia signed an armistice at Malmö without asking Frankfurt. The Assembly first rejected it, then gave in. In September crowds rose in Frankfurt, two conservative deputies were killed, and Prussian and Austrian troops from Mainz restored order.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Schleswig and Holstein, 1848",
+            "extent": [
+              5.5,
+              15.5,
+              52.6,
+              57.6
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.0,
+              13.8,
+              53.2,
+              56.4
+            ],
+            "markers": [
+              {
+                "name": "Rendsburg",
+                "lon": 9.67,
+                "lat": 54.3,
+                "style": "uprising",
+                "label": "Rendsburg: revolt, March 1848",
+                "at": 0.82,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Denmark",
+                "historical": [
+                  "Denmark"
+                ],
+                "at": 0.28,
+                "color": "#9b2d20"
+              },
+              {
+                "label": "Holstein: in the Confederation",
+                "historical": [
+                  "Holstein"
+                ],
+                "at": 0.35,
+                "color": "#c9a227"
+              },
+              {
+                "label": "Schleswig: contested",
+                "historical": [
+                  "Schleswig"
+                ],
+                "at": 0.53,
+                "hatch": true,
+                "color": "#9b2d20"
+              }
+            ],
+            "texts": [
+              {
+                "text": "NORTH SEA",
+                "lon": 6.8,
+                "lat": 55.2,
+                "size": "large"
+              },
+              {
+                "text": "BALTIC SEA",
+                "lon": 12.4,
+                "lat": 54.75,
+                "size": "medium"
+              }
+            ]
+          },
+          "weight": 1.22
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "War and armistice, 1848",
+            "extent": [
+              7.0,
+              13.8,
+              53.2,
+              56.4
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.5,
+              14.5,
+              53.3,
+              56.6
+            ],
+            "markers": [
+              {
+                "name": "Flensburg",
+                "lon": 9.44,
+                "lat": 54.78,
+                "style": "battle",
+                "at": 0.39
+              },
+              {
+                "name": "Malmö",
+                "lon": 13.0,
+                "lat": 55.6,
+                "style": "dot",
+                "label": "Malmö armistice",
+                "at": 0.79,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  9.99,
+                  53.55
+                ],
+                "to_lonlat": [
+                  9.44,
+                  54.78
+                ],
+                "style": "advance",
+                "draw": 0.3,
+                "label": "Prussian and federal troops",
+                "at": 0.24,
+                "via": [
+                  [
+                    9.67,
+                    54.3
+                  ]
+                ],
+                "color": "#2f4b7c"
+              }
+            ],
+            "regions": [
+              {
+                "historical": [
+                  "Holstein"
+                ],
+                "color": "#c9a227"
+              },
+              {
+                "historical": [
+                  "Schleswig"
+                ],
+                "hatch": true,
+                "color": "#9b2d20"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "April 1848",
+                "at": 0.24
+              },
+              {
+                "text": "26 August 1848",
+                "at": 0.79
+              }
+            ]
+          },
+          "weight": 0.87
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Frankfurt, September 1848",
+            "extent": [
+              7.3,
+              10.0,
+              49.4,
+              50.8
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.9,
+              9.3,
+              49.75,
+              50.4
+            ],
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt",
+                "at": 0.05,
+                "pulse": true
+              },
+              {
+                "name": "Mainz",
+                "lon": 8.27,
+                "lat": 50.0,
+                "style": "city",
+                "label": "Federal fortress of Mainz",
+                "at": 0.83
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.27,
+                  50.0
+                ],
+                "to_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "style": "advance",
+                "draw": 0.25,
+                "label": "Prussian and Austrian troops",
+                "at": 0.67,
+                "color": "#2f4b7c"
+              }
+            ],
+            "texts": [
+              {
+                "text": "2 deputies killed",
+                "lon": 8.95,
+                "lat": 50.25,
+                "size": "small",
+                "at": 0.43
+              }
+            ],
+            "stamps": [
+              {
+                "text": "5 Sept: armistice rejected",
+                "at": 0.05
+              },
+              {
+                "text": "16 Sept: accepted",
+                "at": 0.14
+              },
+              {
+                "text": "18 Sept: uprising",
+                "at": 0.22
+              }
+            ]
+          },
+          "weight": 0.92
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Schleswig_War",
+        "https://de.wikipedia.org/wiki/Waffenstillstand_von_Malm%C3%B6",
+        "https://en.wikipedia.org/wiki/Hans_Adolf_Erdmann_von_Auerswald",
+        "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/schlaglichter-einer-revolution/september-1848/"
+      ]
+    },
+    {
+      "id": "s13_counter",
+      "mood": "somber",
+      "narration": "By autumn, the old powers had their armies back, and they used them. In October, Vienna rose again. Prince Windischgrätz, who had crushed Prague in June, stormed the city with Croatian troops under Jelačić. Among the defenders was Robert Blum, a leader of the Frankfurt left. He claimed immunity as a deputy. On the ninth of November he was shot. The next day, General Wrangel marched Prussian troops back into Berlin. In December the king imposed his own constitution.",
+      "visuals": [
+        {
+          "kind": "timeline",
+          "motion": "static",
+          "events": [
+            {
+              "date": "1815",
+              "label": "German Confederation founded",
+              "highlight": false
+            },
+            {
+              "date": "Mar 1848",
+              "label": "March Revolutions",
+              "highlight": false
+            },
+            {
+              "date": "May 1848",
+              "label": "Parliament opens in Frankfurt",
+              "highlight": false
+            },
+            {
+              "date": "Nov 1848",
+              "label": "Counter-revolution",
+              "highlight": true
+            },
+            {
+              "date": "Apr 1849",
+              "label": "Crown refused",
+              "highlight": false
+            },
+            {
+              "date": "Jul 1849",
+              "label": "Rastatt falls",
+              "highlight": false
+            }
+          ],
+          "weight": 0.58
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Counter-revolution in Austria, 1848",
+            "extent": [
+              11.5,
+              21.5,
+              45.0,
+              51.5
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              13.0,
+              19.5,
+              46.5,
+              50.6
+            ],
+            "markers": [
+              {
+                "name": "Prague",
+                "lon": 14.42,
+                "lat": 50.08,
+                "style": "battle",
+                "label": "Prague, June 1848",
+                "at": 0.47
+              },
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "uprising",
+                "label": "Vienna, October 1848",
+                "at": 0.06,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  14.42,
+                  50.08
+                ],
+                "to_lonlat": [
+                  16.37,
+                  48.21
+                ],
+                "style": "advance",
+                "draw": 0.25,
+                "label": "Windischgrätz",
+                "at": 0.59,
+                "color": "#6b6b6b"
+              },
+              {
+                "from_lonlat": [
+                  18.2,
+                  46.6
+                ],
+                "to_lonlat": [
+                  16.37,
+                  48.21
+                ],
+                "style": "advance",
+                "draw": 0.25,
+                "label": "Jelačić",
+                "at": 0.75,
+                "color": "#6b6b6b"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "June 1848",
+                "at": 0.47
+              },
+              {
+                "text": "6 October 1848",
+                "at": 0.05
+              },
+              {
+                "text": "31 October 1848",
+                "at": 0.59
+              }
+            ]
+          },
+          "weight": 1.18
+        },
+        {
+          "kind": "person",
+          "file": "File:Portrait of Robert Blum by August Hunger.jpg",
+          "text": "Robert Blum",
+          "subtext": "Leader of the Frankfurt left, 1807–1848",
+          "motion": "static",
+          "weight": 1.19
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Berlin, November 1848",
+            "extent": [
+              10.5,
+              16.5,
+              50.8,
+              54.2
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              12.2,
+              14.6,
+              51.9,
+              53.1
+            ],
+            "markers": [
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin",
+                "at": 0.05,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  12.6,
+                  52.3
+                ],
+                "to_lonlat": [
+                  13.4,
+                  52.52
+                ],
+                "style": "advance",
+                "draw": 0.25,
+                "label": "Wrangel's troops",
+                "at": 0.22,
+                "color": "#6b6b6b"
+              }
+            ],
+            "regions": [
+              {
+                "label": "Prussia",
+                "historical": [
+                  "Prussia"
+                ],
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "10 November 1848",
+                "at": 0.05
+              },
+              {
+                "text": "12 November: state of siege",
+                "at": 0.47
+              },
+              {
+                "text": "5 December: imposed constitution",
+                "at": 0.56
+              }
+            ]
+          },
+          "weight": 1.05
+        }
+      ],
+      "pause_after": 0.9,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prague_uprising_of_1848",
+        "https://en.wikipedia.org/wiki/Vienna_Uprising",
+        "https://de.wikipedia.org/wiki/Robert_Blum",
+        "https://parlament-berlin.de/Das-Haus/Berliner-Ehrenbuerger/friedrich-heinrich-ernst-graf-von-wrangel",
+        "https://en.wikipedia.org/wiki/Prussian_National_Assembly"
+      ]
+    },
+    {
+      "id": "s14_where",
+      "mood": "neutral",
+      "narration": "Now the hardest question: where was Germany? A Greater Germany would include Austria. But only Austria's German lands and Bohemia were in the Confederation. Hungary, Galicia and northern Italy were not. Including Austria meant splitting its empire. Vienna refused. In March 1849 it bound the whole empire, Hungary included, into one state. That left a Lesser Germany, without Austria, led by the King of Prussia.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Option 1: Greater Germany",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "capital",
+                "label": "Vienna",
+                "at": 0.35
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              },
+              {
+                "label": "Habsburg lands outside",
+                "historical": [
+                  "Austrian Empire",
+                  "Lombardy",
+                  "Venetia"
+                ],
+                "at": 0.6,
+                "hatch": true,
+                "color": "#9b2d20"
+              }
+            ],
+            "texts": [
+              {
+                "text": "BOHEMIA",
+                "lon": 14.8,
+                "lat": 49.9,
+                "size": "small",
+                "at": 0.46
+              },
+              {
+                "text": "HUNGARY",
+                "lon": 20.5,
+                "lat": 47.0,
+                "size": "medium",
+                "at": 0.6
+              },
+              {
+                "text": "GALICIA",
+                "lon": 22.5,
+                "lat": 49.8,
+                "size": "small",
+                "at": 0.64
+              },
+              {
+                "text": "NORTHERN ITALY",
+                "lon": 10.8,
+                "lat": 45.3,
+                "size": "small",
+                "at": 0.69
+              }
+            ]
+          },
+          "weight": 1.21
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Option 2: Lesser Germany",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "capital",
+                "label": "Vienna",
+                "at": 0.05
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin: King of Prussia",
+                "at": 0.87,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Austrian Empire: one state",
+                "historical": [
+                  "Austrian Empire",
+                  "Lombardy",
+                  "Venetia"
+                ],
+                "at": 0.05,
+                "hatch": true,
+                "color": "#6b6b6b"
+              },
+              {
+                "label": "Lesser Germany (approx.)",
+                "historical": [
+                  "Prussia",
+                  "Bavaria",
+                  "Palatinate",
+                  "Saxony",
+                  "Hanover",
+                  "Württemberg",
+                  "Baden",
+                  "Grand Duchy of Hesse",
+                  "Electoral Hesse",
+                  "Nassau",
+                  "Thuringia",
+                  "Mecklenburg-Schwerin",
+                  "Mecklenburg-Strelitz",
+                  "Oldenburg",
+                  "Brunswick",
+                  "Anhalt",
+                  "Lippe-Detmold",
+                  "Schaumburg-Lippe",
+                  "Waldeck",
+                  "Holstein",
+                  "Hamburg",
+                  "Bremen",
+                  "Lübeck",
+                  "Hohenzollern",
+                  "Wetzlar",
+                  "Cuxhaven",
+                  "Luxembourg"
+                ],
+                "at": 0.6,
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "March 1849",
+                "at": 0.07
+              }
+            ]
+          },
+          "weight": 0.79
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Kleindeutsche_L%C3%B6sung",
+        "https://en.wikipedia.org/wiki/March_Constitution_of_Austria"
+      ]
+    },
+    {
+      "id": "s15_constitution",
+      "mood": "hopeful",
+      "narration": "In December 1848 the Assembly passed the Basic Rights: equality before the law, freedom of the press, of religion and of assembly, and the abolition of the death penalty, with exceptions. In March 1849 came the constitution: a federal empire, an elected parliament, a hereditary emperor. The Assembly then elected Friedrich Wilhelm the Fourth emperor: two hundred and ninety votes for, two hundred and forty-eight abstentions.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Basic Rights of the German People, 27 December 1848",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "regions": [
+              {
+                "historical": [
+                  "Prussia",
+                  "Bavaria",
+                  "Palatinate",
+                  "Saxony",
+                  "Hanover",
+                  "Württemberg",
+                  "Baden",
+                  "Grand Duchy of Hesse",
+                  "Electoral Hesse",
+                  "Nassau",
+                  "Thuringia",
+                  "Mecklenburg-Schwerin",
+                  "Mecklenburg-Strelitz",
+                  "Oldenburg",
+                  "Brunswick",
+                  "Anhalt",
+                  "Lippe-Detmold",
+                  "Schaumburg-Lippe",
+                  "Waldeck",
+                  "Holstein",
+                  "Hamburg",
+                  "Bremen",
+                  "Lübeck",
+                  "Hohenzollern",
+                  "Wetzlar",
+                  "Cuxhaven",
+                  "Luxembourg"
+                ],
+                "at": 0.05,
+                "color": "#2f4b7c"
+              }
+            ],
+            "texts": [
+              {
+                "text": "Equality before the law",
+                "lon": 10.2,
+                "lat": 53.2,
+                "size": "small",
+                "at": 0.26
+              },
+              {
+                "text": "Free press",
+                "lon": 10.2,
+                "lat": 52.3,
+                "size": "small",
+                "at": 0.4
+              },
+              {
+                "text": "Freedom of religion",
+                "lon": 10.2,
+                "lat": 51.4,
+                "size": "small",
+                "at": 0.52
+              },
+              {
+                "text": "Freedom of assembly",
+                "lon": 10.2,
+                "lat": 50.5,
+                "size": "small",
+                "at": 0.6
+              },
+              {
+                "text": "No death penalty (with exceptions)",
+                "lon": 10.2,
+                "lat": 49.6,
+                "size": "small",
+                "at": 0.71
+              }
+            ],
+            "stamps": [
+              {
+                "text": "27 December 1848",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 1.32
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The Frankfurt Constitution, 28 March 1849",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt: elected parliament",
+                "at": 0.53,
+                "pulse": true
+              },
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin: hereditary emperor",
+                "at": 0.76
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Empire under the constitution (approx.)",
+                "historical": [
+                  "Prussia",
+                  "Bavaria",
+                  "Palatinate",
+                  "Saxony",
+                  "Hanover",
+                  "Württemberg",
+                  "Baden",
+                  "Grand Duchy of Hesse",
+                  "Electoral Hesse",
+                  "Nassau",
+                  "Thuringia",
+                  "Mecklenburg-Schwerin",
+                  "Mecklenburg-Strelitz",
+                  "Oldenburg",
+                  "Brunswick",
+                  "Anhalt",
+                  "Lippe-Detmold",
+                  "Schaumburg-Lippe",
+                  "Waldeck",
+                  "Holstein",
+                  "Hamburg",
+                  "Bremen",
+                  "Lübeck",
+                  "Hohenzollern",
+                  "Wetzlar",
+                  "Cuxhaven",
+                  "Luxembourg"
+                ],
+                "at": 0.05,
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "28 March 1849",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 0.7
+        },
+        {
+          "kind": "stat",
+          "value": "290",
+          "text": "votes for Friedrich Wilhelm IV as emperor",
+          "motion": "static",
+          "subtext": "248 deputies abstained · 28 March 1849",
+          "weight": 0.98
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Grundrechte_des_deutschen_Volkes",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung",
+        "https://de.wikipedia.org/wiki/Kaiserdeputation"
+      ]
+    },
+    {
+      "id": "s16_refusal",
+      "mood": "somber",
+      "narration": "On the third of April 1849, deputies led by Eduard Simson offered him the crown in Berlin. He stalled, and within weeks refused outright. Privately he had called it an imaginary hoop baked out of mud and clay. A king by the grace of God would not take a crown from a parliament. Austria and the larger kingdoms rejected the constitution. Twenty-eight smaller governments accepted it. Frankfurt had a constitution, and no power to enforce it.",
+      "visuals": [
+        {
+          "kind": "archival",
+          "file": "File:Blos 527 Kaiserdeputation.jpg",
+          "caption": "The Frankfurt delegation before Friedrich Wilhelm IV, Berlin, 3 April 1849",
+          "motion": "zoom_in",
+          "weight": 0.94
+        },
+        {
+          "kind": "quote",
+          "text": "Such an imaginary hoop, baked out of mud and clay …",
+          "subtext": "Friedrich Wilhelm IV, private letter to Christian von Bunsen, 13 December 1848 (translated)",
+          "motion": "static",
+          "weight": 0.96
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Who accepted the constitution? April 1849",
+            "extent": [
+              3.0,
+              24.0,
+              44.0,
+              56.0
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt",
+                "at": 0.62,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Rejected",
+                "historical": [
+                  "Prussia",
+                  "Austrian Empire",
+                  "Bavaria",
+                  "Saxony",
+                  "Hanover"
+                ],
+                "at": 0.05,
+                "hatch": true,
+                "color": "#6b6b6b"
+              },
+              {
+                "label": "Accepted",
+                "historical": [
+                  "Baden",
+                  "Württemberg",
+                  "Grand Duchy of Hesse",
+                  "Electoral Hesse",
+                  "Nassau",
+                  "Oldenburg",
+                  "Brunswick",
+                  "Thuringia",
+                  "Holstein",
+                  "Hamburg",
+                  "Bremen",
+                  "Lübeck",
+                  "Lippe-Detmold"
+                ],
+                "at": 0.33,
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "14 April 1849: Note of the 28",
+                "at": 0.33
+              }
+            ]
+          },
+          "weight": 1.11
+        }
+      ],
+      "pause_after": 1.0,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Kaiserdeputation",
+        "https://www.dhm.de/assets/DHM/Download/Publikationen/Begleitheft_RNT/1848_Aufgaben_G04.pdf",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung"
+      ]
+    },
+    {
+      "id": "s17_campaign",
+      "mood": "tense",
+      "narration": "In May 1849, democrats rose to force the princes to accept it: the Reich Constitution Campaign. Dresden fought for a week, with Richard Wagner among the rebels. Elberfeld and Iserlohn rose in Prussia's west. In the Palatinate, revolutionaries took over. In Baden the army changed sides: Rastatt's garrison mutinied and the Grand Duke fled. The parliament's rump moved to Stuttgart, where troops dispersed it in June.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The Reich Constitution Campaign, May 1849",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              4.5,
+              16.5,
+              47.0,
+              54.0
+            ],
+            "markers": [
+              {
+                "name": "Dresden",
+                "lon": 13.74,
+                "lat": 51.05,
+                "style": "uprising",
+                "label": "Dresden, 3–9 May",
+                "at": 0.43,
+                "pulse": true
+              },
+              {
+                "name": "Elberfeld",
+                "lon": 7.15,
+                "lat": 51.26,
+                "style": "uprising",
+                "label": "Elberfeld",
+                "at": 0.75
+              },
+              {
+                "name": "Iserlohn",
+                "lon": 7.7,
+                "lat": 51.38,
+                "style": "uprising",
+                "label": "Iserlohn",
+                "at": 0.82
+              }
+            ],
+            "stamps": [
+              {
+                "text": "May 1849",
+                "at": 0.05
+              }
+            ]
+          },
+          "weight": 1.0
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The south-west, May–June 1849",
+            "extent": [
+              5.5,
+              11.5,
+              47.3,
+              50.8
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Kaiserslautern",
+                "lon": 7.77,
+                "lat": 49.44,
+                "style": "uprising",
+                "label": "Kaiserslautern",
+                "at": 0.06
+              },
+              {
+                "name": "Rastatt",
+                "lon": 8.2,
+                "lat": 48.86,
+                "style": "uprising",
+                "label": "Rastatt mutiny, May",
+                "at": 0.35,
+                "pulse": true
+              },
+              {
+                "name": "Stuttgart",
+                "lon": 9.18,
+                "lat": 48.78,
+                "style": "city",
+                "label": "Stuttgart, 18 June",
+                "at": 0.75
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.68,
+                  50.11
+                ],
+                "to_lonlat": [
+                  9.18,
+                  48.78
+                ],
+                "style": "route",
+                "draw": 0.25,
+                "label": "Rump parliament",
+                "at": 0.71,
+                "color": "#6b6b6b"
+              }
+            ],
+            "regions": [
+              {
+                "label": "Palatinate",
+                "historical": [
+                  "Palatinate"
+                ],
+                "at": 0.05,
+                "color": "#9b2d20"
+              },
+              {
+                "label": "Baden",
+                "historical": [
+                  "Baden"
+                ],
+                "at": 0.19,
+                "color": "#9b2d20"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "May 1849",
+                "at": 0.05
+              },
+              {
+                "text": "18 June 1849",
+                "at": 0.93
+              }
+            ]
+          },
+          "weight": 1.0
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/May_Uprising_in_Dresden",
+        "https://de.wikipedia.org/wiki/Reichsverfassungskampagne",
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament"
+      ]
+    },
+    {
+      "id": "s18_rastatt",
+      "mood": "somber",
+      "narration": "Each time, Prussia answered. Its troops helped retake Dresden. Then two Prussian corps under the king's brother, Prince Wilhelm, cleared the Palatinate, crossed the Rhine at Germersheim and beat the Baden army at Waghäusel. The rebels fell back behind the Murg, then into Rastatt. Besieged from late June, the fortress surrendered on the twenty-third of July 1849. Courts martial followed. Twenty-seven men were executed in Baden.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Prussia strikes back, May–June 1849",
+            "extent": [
+              3.5,
+              21.0,
+              44.6,
+              56.0
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              6.5,
+              10.5,
+              48.4,
+              50.2
+            ],
+            "markers": [
+              {
+                "name": "Dresden",
+                "lon": 13.74,
+                "lat": 51.05,
+                "style": "battle",
+                "label": "Dresden",
+                "at": 0.18
+              },
+              {
+                "name": "Germersheim",
+                "lon": 8.37,
+                "lat": 49.22,
+                "style": "city",
+                "label": "Germersheim, 20 June",
+                "at": 0.75
+              },
+              {
+                "name": "Waghäusel",
+                "lon": 8.51,
+                "lat": 49.25,
+                "style": "battle",
+                "label": "Waghäusel, 21 June",
+                "at": 0.93,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  13.4,
+                  52.52
+                ],
+                "to_lonlat": [
+                  13.74,
+                  51.05
+                ],
+                "style": "advance",
+                "draw": 0.2,
+                "label": "Prussian troops",
+                "at": 0.18,
+                "color": "#2f4b7c"
+              },
+              {
+                "from_lonlat": [
+                  7.87,
+                  49.84
+                ],
+                "to_lonlat": [
+                  8.37,
+                  49.22
+                ],
+                "style": "advance",
+                "draw": 0.25,
+                "label": "Prussian I Corps",
+                "at": 0.55,
+                "via": [
+                  [
+                    7.77,
+                    49.44
+                  ]
+                ],
+                "color": "#2f4b7c"
+              },
+              {
+                "from_lonlat": [
+                  8.37,
+                  49.22
+                ],
+                "to_lonlat": [
+                  8.51,
+                  49.25
+                ],
+                "style": "advance",
+                "draw": 0.15,
+                "at": 0.66,
+                "color": "#2f4b7c"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "May 1849",
+                "at": 0.05
+              },
+              {
+                "text": "June 1849",
+                "at": 0.55
+              }
+            ]
+          },
+          "weight": 1.56
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Rastatt, July 1849",
+            "extent": [
+              7.4,
+              9.4,
+              48.4,
+              49.5
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              7.9,
+              8.7,
+              48.7,
+              49.05
+            ],
+            "markers": [
+              {
+                "name": "Rastatt",
+                "lon": 8.2,
+                "lat": 48.86,
+                "style": "battle",
+                "label": "Rastatt fortress",
+                "at": 0.05,
+                "pulse": true
+              }
+            ],
+            "texts": [
+              {
+                "text": "MURG",
+                "lon": 8.4,
+                "lat": 48.78,
+                "size": "small",
+                "at": 0.2
+              }
+            ],
+            "stamps": [
+              {
+                "text": "29–30 June: Murg line broken",
+                "at": 0.2
+              },
+              {
+                "text": "30 June: siege begins",
+                "at": 0.38
+              },
+              {
+                "text": "23 July 1849: surrender",
+                "at": 0.78
+              }
+            ]
+          },
+          "weight": 0.98
+        },
+        {
+          "kind": "archival",
+          "file": "File:Entwaffnung der Insurgentenbesatzung von Rastatt.jpg",
+          "caption": "Rastatt's garrison is disarmed, 23 July 1849",
+          "motion": "zoom_out",
+          "weight": 0.46
+        }
+      ],
+      "pause_after": 1.2,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://en.wikipedia.org/wiki/May_Uprising_in_Dresden"
+      ]
+    },
+    {
+      "id": "s19_exiles",
+      "mood": "neutral",
+      "narration": "One of Rastatt's defenders was a twenty-year-old student, Carl Schurz. He escaped through an unguarded sewer, crossed the Rhine to France and reached Switzerland. About eighty thousand people left Baden after the revolution, most for America, driven mostly by poverty, some by politics. German emigration to America peaked in 1854: over two hundred and fifteen thousand in one year. These exiles were the Forty-Eighters. Hecker led Union regiments in the Civil War; Schurz became a Union general and a senator for Missouri.",
+      "visuals": [
+        {
+          "kind": "person",
+          "file": "File:Carl Schurz 1879.jpg",
+          "text": "Carl Schurz",
+          "subtext": "Student revolutionary, later US senator, 1829–1906",
+          "motion": "static",
+          "weight": 0.67
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Schurz's escape, July 1849 (approx.)",
+            "extent": [
+              6.8,
+              10.0,
+              47.1,
+              49.3
+            ],
+            "basemap": "1815",
+            "camera_to": [
+              6.8,
+              9.6,
+              47.1,
+              49.1
+            ],
+            "markers": [
+              {
+                "name": "Rastatt",
+                "lon": 8.2,
+                "lat": 48.86,
+                "style": "battle",
+                "label": "Rastatt",
+                "at": 0.05
+              },
+              {
+                "name": "Zurich",
+                "lon": 8.54,
+                "lat": 47.37,
+                "style": "city",
+                "label": "Zurich",
+                "at": 0.84
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.2,
+                  48.86
+                ],
+                "to_lonlat": [
+                  8.02,
+                  48.86
+                ],
+                "style": "route",
+                "draw": 0.15,
+                "label": "through the sewer to the Rhine",
+                "at": 0.32,
+                "color": "#9b2d20"
+              },
+              {
+                "from_lonlat": [
+                  8.02,
+                  48.86
+                ],
+                "to_lonlat": [
+                  8.54,
+                  47.37
+                ],
+                "style": "route",
+                "draw": 0.4,
+                "label": "via France to Switzerland",
+                "at": 0.4,
+                "via": [
+                  [
+                    7.75,
+                    48.58
+                  ],
+                  [
+                    7.4,
+                    47.9
+                  ],
+                  [
+                    7.6,
+                    47.56
+                  ]
+                ],
+                "color": "#9b2d20"
+              }
+            ],
+            "texts": [
+              {
+                "text": "FRANCE",
+                "lon": 7.2,
+                "lat": 48.4,
+                "size": "medium",
+                "at": 0.63
+              },
+              {
+                "text": "SWITZERLAND",
+                "lon": 8.4,
+                "lat": 47.2,
+                "size": "medium",
+                "at": 0.84
+              }
+            ]
+          },
+          "weight": 0.88
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "Leaving for America",
+            "extent": [
+              -80.0,
+              16.0,
+              30.0,
+              60.0
+            ],
+            "basemap": "1880",
+            "markers": [
+              {
+                "name": "Bremerhaven",
+                "lon": 8.58,
+                "lat": 53.54,
+                "style": "city",
+                "label": "Bremerhaven",
+                "at": 0.05
+              },
+              {
+                "name": "Le Havre",
+                "lon": 0.11,
+                "lat": 49.49,
+                "style": "city",
+                "label": "Le Havre",
+                "at": 0.05
+              },
+              {
+                "name": "New York",
+                "lon": -74.01,
+                "lat": 40.71,
+                "style": "city",
+                "label": "New York",
+                "at": 0.51,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  8.58,
+                  53.54
+                ],
+                "to_lonlat": [
+                  -74.01,
+                  40.71
+                ],
+                "style": "flow",
+                "draw": 0.4,
+                "at": 0.21,
+                "via": [
+                  [
+                    4.0,
+                    53.3
+                  ],
+                  [
+                    1.5,
+                    51.0
+                  ],
+                  [
+                    -6.0,
+                    49.5
+                  ],
+                  [
+                    -40.0,
+                    45.0
+                  ]
+                ],
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  0.11,
+                  49.49
+                ],
+                "to_lonlat": [
+                  -74.01,
+                  40.71
+                ],
+                "style": "flow",
+                "draw": 0.4,
+                "at": 0.29,
+                "via": [
+                  [
+                    -6.0,
+                    49.0
+                  ],
+                  [
+                    -40.0,
+                    43.5
+                  ]
+                ],
+                "color": "#c9a227"
+              }
+            ],
+            "texts": [
+              {
+                "text": "ATLANTIC OCEAN",
+                "lon": -38.0,
+                "lat": 40.0,
+                "size": "large"
+              }
+            ]
+          },
+          "weight": 1.18
+        },
+        {
+          "kind": "stat",
+          "value": "215,000",
+          "text": "German immigrants to the US in 1854 alone",
+          "motion": "static",
+          "subtext": "the peak year of German emigration",
+          "weight": 0.92
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The Forty-Eighters in America",
+            "extent": [
+              -80.0,
+              16.0,
+              30.0,
+              60.0
+            ],
+            "basemap": "1880",
+            "camera_to": [
+              -95.0,
+              -70.0,
+              35.0,
+              46.0
+            ],
+            "markers": [
+              {
+                "name": "New York",
+                "lon": -74.01,
+                "lat": 40.71,
+                "style": "city",
+                "label": "New York",
+                "at": 0.05
+              },
+              {
+                "name": "Cincinnati",
+                "lon": -84.51,
+                "lat": 39.1,
+                "style": "city",
+                "label": "Cincinnati",
+                "at": 0.25
+              },
+              {
+                "name": "Milwaukee",
+                "lon": -87.91,
+                "lat": 43.04,
+                "style": "city",
+                "label": "Milwaukee",
+                "at": 0.28
+              },
+              {
+                "name": "Belleville",
+                "lon": -89.98,
+                "lat": 38.52,
+                "style": "dot",
+                "label": "Belleville, Illinois: Hecker's farm",
+                "at": 0.24,
+                "pulse": true
+              },
+              {
+                "name": "St. Louis",
+                "lon": -90.2,
+                "lat": 38.63,
+                "style": "dot",
+                "label": "St. Louis: Schurz, senator for Missouri",
+                "at": 0.82,
+                "pulse": true
+              }
+            ],
+            "arrows": [
+              {
+                "from_lonlat": [
+                  -74.01,
+                  40.71
+                ],
+                "to_lonlat": [
+                  -84.51,
+                  39.1
+                ],
+                "style": "flow",
+                "draw": 0.2,
+                "at": 0.15,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  -74.01,
+                  40.71
+                ],
+                "to_lonlat": [
+                  -87.91,
+                  43.04
+                ],
+                "style": "flow",
+                "draw": 0.2,
+                "at": 0.18,
+                "color": "#c9a227"
+              },
+              {
+                "from_lonlat": [
+                  -74.01,
+                  40.71
+                ],
+                "to_lonlat": [
+                  -90.2,
+                  38.63
+                ],
+                "style": "flow",
+                "draw": 0.2,
+                "at": 0.21,
+                "color": "#c9a227"
+              }
+            ]
+          },
+          "weight": 1.35
+        }
+      ],
+      "pause_after": 0.6,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carl_Schurz",
+        "https://journals.ku.edu/ygas/article/download/18285/16434/44889",
+        "https://de.wikipedia.org/wiki/Badische_Revolution",
+        "https://www.immigrantentrepreneurship.org/entries/volume-2-introduction/",
+        "https://en.wikipedia.org/wiki/Forty-Eighters",
+        "https://en.wikipedia.org/wiki/Friedrich_Hecker"
+      ]
+    },
+    {
+      "id": "s20_why",
+      "mood": "neutral",
+      "narration": "So why did March 1848 end at Rastatt, sixteen months later? Three reasons. First, power. In March the princes lost their nerve, not their armies. Once Austria and Prussia had their soldiers back, Frankfurt had nothing to set against them. Second, division. Liberals wanted order and a monarchy, democrats a republic, and many liberals came to fear the street more than the kings. Third, geography. No one could agree where Germany was. Austria could not join without breaking its empire, nor simply be left out.",
+      "visuals": [
+        {
+          "kind": "timeline",
+          "motion": "static",
+          "events": [
+            {
+              "date": "1815",
+              "label": "German Confederation founded",
+              "highlight": false
+            },
+            {
+              "date": "Mar 1848",
+              "label": "March Revolutions",
+              "highlight": false
+            },
+            {
+              "date": "May 1848",
+              "label": "Parliament opens in Frankfurt",
+              "highlight": false
+            },
+            {
+              "date": "Nov 1848",
+              "label": "Counter-revolution",
+              "highlight": false
+            },
+            {
+              "date": "Apr 1849",
+              "label": "Crown refused",
+              "highlight": false
+            },
+            {
+              "date": "Jul 1849",
+              "label": "Rastatt falls",
+              "highlight": true
+            }
+          ],
+          "weight": 0.58
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "1. Power",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1815",
+            "markers": [
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin",
+                "at": 0.44
+              },
+              {
+                "name": "Vienna",
+                "lon": 16.37,
+                "lat": 48.21,
+                "style": "capital",
+                "label": "Vienna",
+                "at": 0.44
+              },
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "dot",
+                "label": "Frankfurt: no army",
+                "at": 0.71,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "Prussia",
+                "historical": [
+                  "Prussia"
+                ],
+                "at": 0.44,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Austrian Empire",
+                "historical": [
+                  "Austrian Empire",
+                  "Lombardy",
+                  "Venetia"
+                ],
+                "at": 0.47,
+                "color": "#9b2d20"
+              }
+            ]
+          },
+          "weight": 1.28
+        },
+        {
+          "kind": "compare",
+          "columns": [
+            {
+              "title": "Liberals",
+              "points": [
+                "Constitution and order",
+                "Monarchy, reformed",
+                "Feared the street"
+              ],
+              "color": "#2f4b7c"
+            },
+            {
+              "title": "Democrats",
+              "points": [
+                "Republic, popular sovereignty",
+                "Equal vote for all men",
+                "Ready to fight"
+              ],
+              "color": "#9b2d20"
+            }
+          ],
+          "motion": "static",
+          "weight": 1.1
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "3. Geography",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1815",
+            "regions": [
+              {
+                "label": "German Confederation",
+                "polygon": [
+                  [
+                    7.2,
+                    53.25
+                  ],
+                  [
+                    7.0,
+                    53.7
+                  ],
+                  [
+                    8.0,
+                    53.75
+                  ],
+                  [
+                    8.6,
+                    53.9
+                  ],
+                  [
+                    8.9,
+                    54.05
+                  ],
+                  [
+                    9.3,
+                    54.3
+                  ],
+                  [
+                    9.9,
+                    54.38
+                  ],
+                  [
+                    10.2,
+                    54.45
+                  ],
+                  [
+                    11.1,
+                    54.45
+                  ],
+                  [
+                    11.0,
+                    54.0
+                  ],
+                  [
+                    12.0,
+                    54.2
+                  ],
+                  [
+                    12.5,
+                    54.45
+                  ],
+                  [
+                    13.4,
+                    54.65
+                  ],
+                  [
+                    14.3,
+                    54.1
+                  ],
+                  [
+                    15.6,
+                    54.2
+                  ],
+                  [
+                    16.6,
+                    54.55
+                  ],
+                  [
+                    17.6,
+                    54.75
+                  ],
+                  [
+                    17.3,
+                    54.0
+                  ],
+                  [
+                    16.9,
+                    53.25
+                  ],
+                  [
+                    15.9,
+                    52.55
+                  ],
+                  [
+                    16.2,
+                    52.0
+                  ],
+                  [
+                    16.6,
+                    51.6
+                  ],
+                  [
+                    17.5,
+                    51.3
+                  ],
+                  [
+                    18.2,
+                    51.1
+                  ],
+                  [
+                    18.7,
+                    50.8
+                  ],
+                  [
+                    19.1,
+                    50.3
+                  ],
+                  [
+                    18.85,
+                    49.6
+                  ],
+                  [
+                    18.2,
+                    49.3
+                  ],
+                  [
+                    17.6,
+                    48.85
+                  ],
+                  [
+                    17.0,
+                    48.1
+                  ],
+                  [
+                    16.8,
+                    47.7
+                  ],
+                  [
+                    16.3,
+                    46.9
+                  ],
+                  [
+                    16.4,
+                    46.4
+                  ],
+                  [
+                    15.7,
+                    45.85
+                  ],
+                  [
+                    15.2,
+                    45.45
+                  ],
+                  [
+                    14.4,
+                    45.3
+                  ],
+                  [
+                    13.6,
+                    45.5
+                  ],
+                  [
+                    13.7,
+                    46.0
+                  ],
+                  [
+                    13.4,
+                    46.5
+                  ],
+                  [
+                    12.4,
+                    46.6
+                  ],
+                  [
+                    11.7,
+                    45.9
+                  ],
+                  [
+                    11.0,
+                    45.75
+                  ],
+                  [
+                    10.5,
+                    46.0
+                  ],
+                  [
+                    10.4,
+                    46.6
+                  ],
+                  [
+                    9.6,
+                    47.05
+                  ],
+                  [
+                    9.55,
+                    47.5
+                  ],
+                  [
+                    8.7,
+                    47.7
+                  ],
+                  [
+                    7.6,
+                    47.6
+                  ],
+                  [
+                    7.6,
+                    48.2
+                  ],
+                  [
+                    8.2,
+                    48.97
+                  ],
+                  [
+                    7.0,
+                    49.15
+                  ],
+                  [
+                    6.4,
+                    49.45
+                  ],
+                  [
+                    5.8,
+                    49.5
+                  ],
+                  [
+                    5.75,
+                    50.1
+                  ],
+                  [
+                    6.1,
+                    50.7
+                  ],
+                  [
+                    5.95,
+                    50.9
+                  ],
+                  [
+                    5.7,
+                    51.25
+                  ],
+                  [
+                    6.1,
+                    51.6
+                  ],
+                  [
+                    6.0,
+                    51.9
+                  ],
+                  [
+                    6.8,
+                    51.95
+                  ],
+                  [
+                    7.05,
+                    52.25
+                  ],
+                  [
+                    6.75,
+                    52.5
+                  ],
+                  [
+                    7.05,
+                    52.8
+                  ],
+                  [
+                    7.2,
+                    53.25
+                  ]
+                ],
+                "at": 0.05,
+                "color": "#c9a227"
+              },
+              {
+                "label": "Austrian Empire",
+                "historical": [
+                  "Austrian Empire",
+                  "Lombardy",
+                  "Venetia"
+                ],
+                "at": 0.4,
+                "hatch": true,
+                "color": "#9b2d20"
+              }
+            ],
+            "texts": [
+              {
+                "text": "Where is Germany?",
+                "lon": 11.5,
+                "lat": 55.3,
+                "size": "large",
+                "at": 0.11
+              }
+            ]
+          },
+          "weight": 1.03
+        }
+      ],
+      "pause_after": 0.9,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+        "https://en.wikipedia.org/wiki/Frankfurt_Parliament"
+      ]
+    },
+    {
+      "id": "s21_legacy",
+      "mood": "hopeful",
+      "narration": "Germany was united in 1871 by Prussian arms, without Austria, under that same Prince Wilhelm, now emperor: the Lesser German map, without the Frankfurt freedoms. Those freedoms returned. In 1919 the Weimar Republic adopted black, red and gold and drew on the Frankfurt basic rights; so did West Germany's Basic Law in 1949. Article twenty-two still names black, red and gold as the federal flag. The revolution lost in 1849. Its constitution became a model for German democracy.",
+      "visuals": [
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "1871: unification from above",
+            "extent": [
+              3.0,
+              27.0,
+              43.5,
+              56.5
+            ],
+            "basemap": "1880",
+            "markers": [
+              {
+                "name": "Berlin",
+                "lon": 13.4,
+                "lat": 52.52,
+                "style": "capital",
+                "label": "Berlin: Emperor Wilhelm I",
+                "at": 0.45,
+                "pulse": true
+              }
+            ],
+            "regions": [
+              {
+                "label": "German Empire, 1871",
+                "historical": [
+                  "Germany"
+                ],
+                "at": 0.11,
+                "color": "#2f4b7c"
+              },
+              {
+                "label": "Austria-Hungary",
+                "historical": [
+                  "Austria Hungary"
+                ],
+                "at": 0.25,
+                "hatch": true,
+                "color": "#6b6b6b"
+              }
+            ],
+            "stamps": [
+              {
+                "text": "1871",
+                "at": 0.11
+              }
+            ]
+          },
+          "weight": 1.01
+        },
+        {
+          "kind": "map",
+          "motion": "static",
+          "map": {
+            "title": "The constitution's afterlife",
+            "extent": [
+              4.0,
+              16.5,
+              47.0,
+              55.2
+            ],
+            "basemap": "modern",
+            "markers": [
+              {
+                "name": "Frankfurt",
+                "lon": 8.68,
+                "lat": 50.11,
+                "style": "capital",
+                "label": "Frankfurt, 1849",
+                "at": 0.05
+              },
+              {
+                "name": "Weimar",
+                "lon": 11.33,
+                "lat": 50.98,
+                "style": "capital",
+                "label": "Weimar, 1919",
+                "at": 0.08,
+                "pulse": true
+              },
+              {
+                "name": "Bonn",
+                "lon": 7.1,
+                "lat": 50.73,
+                "style": "capital",
+                "label": "Bonn, 1949",
+                "at": 0.58,
+                "pulse": true
+              }
+            ],
+            "stamps": [
+              {
+                "text": "1849",
+                "at": 0.05
+              },
+              {
+                "text": "1919",
+                "at": 0.08
+              },
+              {
+                "text": "1949",
+                "at": 0.58
+              }
+            ]
+          },
+          "weight": 1.47
+        },
+        {
+          "kind": "archival",
+          "file": "File:Paulskirche Frankfurt am Main 2021-08-17 01.jpg",
+          "caption": "St Paul's Church, Frankfurt, today",
+          "motion": "zoom_out",
+          "weight": 0.52
+        }
+      ],
+      "pause_after": 1.5,
+      "sources": [
+        "https://en.wikipedia.org/wiki/William_I,_German_Emperor",
+        "https://en.wikipedia.org/wiki/Flag_of_Germany",
+        "https://de.wikipedia.org/wiki/Paulskirchenverfassung"
+      ]
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Revolutions_of_1848_in_the_German_states",
+    "https://en.wikipedia.org/wiki/Frankfurt_Parliament",
+    "https://en.wikipedia.org/wiki/German_Confederation",
+    "https://en.wikipedia.org/wiki/Klemens_von_Metternich",
+    "https://en.wikipedia.org/wiki/Carlsbad_Decrees",
+    "https://en.wikipedia.org/wiki/Hambach_Festival",
+    "https://en.wikipedia.org/wiki/Silesian_weavers%27_uprising",
+    "https://en.wikipedia.org/wiki/European_potato_failure",
+    "https://de.wikipedia.org/wiki/Kartoffelrevolution",
+    "https://de.wikipedia.org/wiki/Mannheimer_Volksversammlung",
+    "https://en.wikipedia.org/wiki/Ludwig_I_of_Bavaria",
+    "https://de.wikipedia.org/wiki/M%C3%A4rzrevolution_1848_in_Berlin",
+    "https://en.wikipedia.org/wiki/Flag_of_Germany",
+    "https://de.wikipedia.org/wiki/Frankfurter_Nationalversammlung",
+    "https://de.wikipedia.org/wiki/Heinrich_von_Gagern",
+    "https://en.wikipedia.org/wiki/Friedrich_Hecker",
+    "https://de.wikipedia.org/wiki/Heckerzug",
+    "https://en.wikipedia.org/wiki/Friedrich_Balduin_von_Gagern",
+    "https://en.wikipedia.org/wiki/First_Schleswig_War",
+    "https://de.wikipedia.org/wiki/Waffenstillstand_von_Malm%C3%B6",
+    "https://en.wikipedia.org/wiki/Hans_Adolf_Erdmann_von_Auerswald",
+    "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/schlaglichter-einer-revolution/september-1848/",
+    "https://en.wikipedia.org/wiki/Prague_uprising_of_1848",
+    "https://en.wikipedia.org/wiki/Vienna_Uprising",
+    "https://de.wikipedia.org/wiki/Robert_Blum",
+    "https://parlament-berlin.de/Das-Haus/Berliner-Ehrenbuerger/friedrich-heinrich-ernst-graf-von-wrangel",
+    "https://en.wikipedia.org/wiki/Prussian_National_Assembly",
+    "https://de.wikipedia.org/wiki/Kleindeutsche_L%C3%B6sung",
+    "https://en.wikipedia.org/wiki/March_Constitution_of_Austria",
+    "https://de.wikipedia.org/wiki/Grundrechte_des_deutschen_Volkes",
+    "https://de.wikipedia.org/wiki/Paulskirchenverfassung",
+    "https://de.wikipedia.org/wiki/Kaiserdeputation",
+    "https://www.dhm.de/assets/DHM/Download/Publikationen/Begleitheft_RNT/1848_Aufgaben_G04.pdf",
+    "https://en.wikipedia.org/wiki/May_Uprising_in_Dresden",
+    "https://de.wikipedia.org/wiki/Reichsverfassungskampagne",
+    "https://de.wikipedia.org/wiki/Badische_Revolution",
+    "https://en.wikipedia.org/wiki/Carl_Schurz",
+    "https://journals.ku.edu/ygas/article/download/18285/16434/44889",
+    "https://www.immigrantentrepreneurship.org/entries/volume-2-introduction/",
+    "https://en.wikipedia.org/wiki/Forty-Eighters",
+    "https://en.wikipedia.org/wiki/William_I,_German_Emperor"
+  ]
+}

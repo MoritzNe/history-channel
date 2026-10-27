@@ -135,12 +135,35 @@ def script_warnings(script: VideoScript, minutes: float) -> list[str]:
     wc = word_count(script)
     if abs(wc - target) > 0.2 * target:
         warn.append(f"Length: {wc} narration words vs target ~{int(target)} ({wc / WORDS_PER_MINUTE:.1f} min).")
+    kinds: list[str] = []
     for s in script.scenes:
-        if not 2 <= len(s.visuals) <= 4:
-            warn.append(f"Scene {s.id}: {len(s.visuals)} visuals (want 2-4).")
+        if not 1 <= len(s.visuals) <= 5:
+            warn.append(f"Scene {s.id}: {len(s.visuals)} visuals (want 1-5).")
         n = len(s.narration.split())
         if n > 170:
             warn.append(f"Scene {s.id}: {n} words, longer than ~60 s; consider splitting.")
+        secs = n / WORDS_PER_MINUTE * 60
+        total_w = sum(max(v.weight, 0.05) for v in s.visuals) or 1.0
+        for i, v in enumerate(s.visuals):
+            kinds.append(v.kind)
+            shot = secs * max(v.weight, 0.05) / total_w
+            limit = {"map": 18, "compare": 15, "timeline": 15}.get(v.kind, 12)
+            if shot > limit:
+                warn.append(f"Scene {s.id} visual {i} ({v.kind}): ~{shot:.0f} s on screen; split it or add a shot.")
+            if v.caption and v.kind != "archival":
+                warn.append(f"Scene {s.id} visual {i}: caption on a {v.kind} shot (captions are for archival stills).")
+            if v.map is not None:
+                ats = [x.at for xs in (v.map.markers, v.map.arrows, v.map.regions, v.map.texts) for x in xs if x.at is not None]
+                if ats and min(ats) < 0.05:
+                    warn.append(f"Scene {s.id} visual {i}: first map animation at {min(ats):.2f}; start at 0.05 or later.")
+    if kinds:
+        share = {k: kinds.count(k) / len(kinds) for k in set(kinds)}
+        if share.get("map", 0) < 0.55:
+            warn.append(f"Shot mix: {share.get('map', 0):.0%} maps (want at least 55%).")
+        if share.get("archival", 0) > 0.20:
+            warn.append(f"Shot mix: {share.get('archival', 0):.0%} archival (want at most 20%).")
+        if "timeline" not in share:
+            warn.append("No recurring timeline shot at the act transitions.")
     return warn
 
 
@@ -175,13 +198,25 @@ def validate_script(data: dict[str, Any], *, slug: str, language: str) -> VideoS
                 errors.append(f"{where}: archival requires `file` or `query`")
             if v.kind == "generated" and not (v.prompt or v.query):
                 errors.append(f"{where}: generated requires `prompt`")
+            if v.kind == "stat" and not (v.value or "").strip():
+                errors.append(f"{where}: stat requires `value`")
+            if v.kind == "timeline" and not v.events:
+                errors.append(f"{where}: timeline requires `events`")
+            if v.kind == "compare" and len(v.columns) != 2:
+                errors.append(f"{where}: compare requires exactly two `columns`")
+            if v.kind == "person" and not ((v.file or v.query) and (v.text or "").strip()):
+                errors.append(f"{where}: person requires a portrait `file` or `query` and the name in `text`")
             if v.map is not None:
-                lon0, lon1, lat0, lat1 = v.map.extent
-                if not (-180 <= lon0 < lon1 <= 180 and -90 <= lat0 < lat1 <= 90):
-                    errors.append(f"{where}: map extent must be (lon_min, lon_max, lat_min, lat_max)")
+                extents = [v.map.extent] + ([v.map.camera_to] if v.map.camera_to else [])
+                for lon0, lon1, lat0, lat1 in extents:
+                    if not (-180 <= lon0 < lon1 <= 180 and -90 <= lat0 < lat1 <= 90):
+                        errors.append(f"{where}: map extent/camera_to must be (lon_min, lon_max, lat_min, lat_max)")
                 for m in v.map.markers:
                     if not (-180 <= m.lon <= 180 and -90 <= m.lat <= 90):
                         errors.append(f"{where}: marker {m.name!r} has invalid coordinates")
+                timed = [*v.map.markers, *v.map.arrows, *v.map.regions, *v.map.texts, *v.map.stamps]
+                if any(x.at is not None and not 0 <= x.at <= 1 for x in timed):
+                    errors.append(f"{where}: map `at` values are fractions of the shot and must be within 0-1")
     if errors:
         raise ValueError("; ".join(errors))
     return script

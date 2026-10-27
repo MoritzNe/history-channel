@@ -19,6 +19,7 @@ import shutil
 import subprocess
 import time
 from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures.process import BrokenProcessPool
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -257,6 +258,39 @@ def _aac_encoder() -> str:
     return "aac_at" if " aac_at " in out else "aac"
 
 
+POOL_ATTEMPTS = 3
+
+
+def _render_chunks(plan, chunks, tmp: Path, preview: bool, workers: int, threads: int, timeline: Timeline):
+    """Render all chunks in a process pool. A worker that dies (rare native crash in
+    a drawing library) breaks the whole pool, so re-run only the missing chunks in a
+    fresh pool instead of failing the build."""
+    seg_paths = [str(tmp / f"seg_{k:04d}.ts") for k in range(len(chunks))]
+    done: dict[int, str] = {}
+    audio_path = None
+    for attempt in range(1, POOL_ATTEMPTS + 1):
+        todo = [k for k in range(len(chunks)) if k not in done]
+        try:
+            with ProcessPoolExecutor(max_workers=workers) as pool:
+                futs = {k: pool.submit(_render_chunk, plan, *chunks[k], seg_paths[k], preview, threads) for k in todo}
+                if audio_path is None:
+                    audio_path = build_audio(timeline, tmp)  # overlaps with the video workers
+                for k, fut in futs.items():
+                    try:
+                        done[k] = fut.result()[0]
+                    except BrokenProcessPool:
+                        continue
+        except BrokenProcessPool:
+            pass
+        if len(done) == len(chunks):
+            break
+        log.warning("render: worker pool died; retrying %d of %d chunks (attempt %d/%d)",
+                    len(chunks) - len(done), len(chunks), attempt, POOL_ATTEMPTS)
+    else:
+        raise RuntimeError(f"render: {len(chunks) - len(done)} chunks failed after {POOL_ATTEMPTS} attempts")
+    return [done[k] for k in range(len(chunks))], audio_path
+
+
 def render_video(timeline: Timeline, out_path: Path, work_dir: Path, *, preview: bool = False) -> Path:
     """Render ``timeline`` to an H.264/AAC MP4 at ``out_path``.
 
@@ -280,13 +314,7 @@ def render_video(timeline: Timeline, out_path: Path, work_dir: Path, *, preview:
     log.info("render: %d frames, %d chunks, %d workers", plan.n_frames, len(chunks), workers)
 
     try:
-        with ProcessPoolExecutor(max_workers=workers) as pool:
-            futs = [
-                pool.submit(_render_chunk, plan, f0, f1, str(tmp / f"seg_{k:04d}.ts"), preview, threads)
-                for k, (f0, f1) in enumerate(chunks)
-            ]
-            audio_path = build_audio(timeline, tmp)  # overlaps with the video workers
-            segs = [f.result()[0] for f in futs]
+        segs, audio_path = _render_chunks(plan, chunks, tmp, preview, workers, threads, timeline)
         t_video = time.monotonic() - t0
 
         listing = tmp / "segments.txt"
