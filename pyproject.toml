@@ -18,6 +18,7 @@ dependencies = [
     "google-api-python-client>=2.140",
     "google-auth-oauthlib>=1.2",
     "python-dotenv>=1.0",
+    "skia-python>=144.1",
 ]
 
 [project.optional-dependencies]

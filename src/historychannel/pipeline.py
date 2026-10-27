@@ -68,8 +68,9 @@ def narrate(script: VideoScript, work: Path, tts_name: str = "auto") -> list[tup
 # --------------------------------------------------------------------------- visuals
 
 
-def gather_assets(script: VideoScript, work: Path) -> list[list[Asset]]:
+def gather_assets(script: VideoScript, work: Path, *, static: bool = False) -> list[list[Asset]]:
     """Resolve every visual to an image file, in parallel (mostly network-bound)."""
+    from historychannel import animate
     from historychannel.visuals import resolve_visual
 
     asset_dir = work / "assets"
@@ -81,13 +82,21 @@ def gather_assets(script: VideoScript, work: Path) -> list[list[Asset]]:
 
     def run(job: tuple[int, int, Visual]) -> tuple[int, int, Asset]:
         si, vi, visual = job
-        key = _digest(visual.model_dump(mode="json"))
+        key = _digest(visual.model_dump(mode="json"), static)
         meta = asset_dir / f"{si:02d}-{vi:02d}-{key}.json"
         if meta.exists():
             asset = Asset.model_validate_json(meta.read_text())
             if asset.path.exists():
                 return si, vi, asset
-        asset = resolve_visual(visual, asset_dir, index=si * 100 + vi, script_title=script.title)
+        index = si * 100 + vi
+        asset = None
+        if visual.kind in animate.ANIMATED_KINDS and not static:
+            try:
+                asset = animate.prepare(visual, asset_dir, index=index)
+            except Exception:  # an animation bug must not sink the build; fall back to a still
+                log.exception("animation prepare failed for scene %d visual %d; using a still", si, vi)
+        if asset is None:
+            asset = resolve_visual(visual, asset_dir, index=index, script_title=script.title)
         meta.write_text(asset.model_dump_json())
         return si, vi, asset
 
@@ -140,7 +149,10 @@ def build_timeline(
         for visual, asset, length in zip(scene.visuals, scene_assets, _split_scene(scene, pic_len)):
             if length <= 0:
                 continue
-            clips.append(Clip(image=asset.path, start=offset, duration=length, motion=visual.motion, caption=visual.caption))
+            clips.append(Clip(
+                image=asset.path, start=offset, duration=length, motion=visual.motion,
+                caption=visual.caption, animation=asset.animation,
+            ))
             offset += length
 
         moods.append((pic_start, pic_start + pic_len, scene.mood))
